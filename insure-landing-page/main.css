@@ -1,0 +1,72 @@
+.btn {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list .item a {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.heading {
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+.header .navbar .list .item a {
+  color: #837D88;
+}
+.header .navbar .list .item .btn {
+  color: #000;
+}
+
+.banner {
+  background-color: #2D2641;
+}
+.banner .text-box,
+.banner .text-box .btn {
+  color: #fff;
+}
+
+.about .list .item .heading {
+  font-size: 28px;
+}
+.about .list .item .paragraph {
+  color: #837D88;
+}
+
+.works {
+  background-color: #2D2641;
+}
+.works .heading,
+.works .btn {
+  color: #fff;
+}
+
+.footer .navbar h3 {
+  color: #837D88;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+.footer .navbar .list .item a {
+  color: #2D2641;
+}
