@@ -102,11 +102,18 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .services-item {
+  margin-right: 50px;
   padding: 30px;
   width: 350px;
+}
+
+.services-item:nth-child(3),
+.services-item:last-child {
+  margin: 0;
 }
 
 .services-item img {
