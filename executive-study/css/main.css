@@ -51,6 +51,7 @@ body {
 }
 
 .hero-text .paragraph-primary {
+  margin: 0;
   margin-bottom: 42px;
   text-align: left;
 }
@@ -240,37 +241,12 @@ body {
   color: #37474faf;
 }
 
-.apply-box {
+.main-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.footer {
-  padding: 50px 100px;
-  display: flex;
-  background: #717cff;
-}
-
-.footer .company p {
-  color: #fff;
-}
-
-.footer-navbar-list {
-  display: flex;
-  list-style: none;
-}
-
-.footer-navbar-list .item-row {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-navbar-list .link {
-  color: #fff;
-}
-
-.footer-social {
-  display: flex;
-  list-style: none;
+.main-footer .heading-secondary {
+  margin: 0;
 }
