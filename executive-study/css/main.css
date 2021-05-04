@@ -57,16 +57,6 @@ body {
   margin-bottom: 106px;
 }
 
-.social-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-.social-item {
-  margin-right: 30px;
-}
-
 .sponsors-heading {
   color: rgba(55, 55, 55, 0.7);
   font-size: 23px;

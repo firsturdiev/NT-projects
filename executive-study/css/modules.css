@@ -45,6 +45,16 @@
   line-height: 28px;
 }
 
+.social-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.social-item {
+  margin-right: 30px;
+}
+
 .btn {
   display: inline-block;
   text-decoration: none;
