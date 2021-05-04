@@ -41,9 +41,6 @@ body {
 
 .page-header .btn {
   background: transparent;
-  color: #505050;
-  border: 2px solid #717cff;
-  font-size: 17px;
 }
 
 .hero-text span {
@@ -68,10 +65,6 @@ body {
 
 .social-item {
   margin-right: 30px;
-}
-
-.sponsors {
-  background: #fafafa;
 }
 
 .sponsors-heading {
@@ -136,7 +129,6 @@ body {
   padding: 25px;
   width: min-content;
   border-radius: 10px;
-  background: #fafafa;
 }
 
 .blog-poster {
@@ -256,4 +248,9 @@ body {
 
 .main-footer .heading-secondary {
   margin: 0;
+}
+
+
+.page-footer {
+  background: #717CFF;
 }

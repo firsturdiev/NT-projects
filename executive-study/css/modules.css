@@ -28,7 +28,7 @@
 
 .paragraph-primary {
   margin: auto;
-  width: 950px;
+  width: 1000px;
   margin-bottom: 100px;
   text-align: center;
   font-size: 22px;
@@ -57,6 +57,9 @@
 }
 
 .btn-bordered {
+  color: #000;
+  font-weight: 500;
+  font-size: 17px;
   border: 2px solid #717cff;
   border-radius: 11px;
   padding: 9px 20px;
