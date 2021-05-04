@@ -27,6 +27,8 @@
 }
 
 .paragraph-primary {
+  margin: auto;
+  width: 950px;
   margin-bottom: 100px;
   text-align: center;
   font-size: 22px;

@@ -112,6 +112,11 @@ body {
   margin-bottom: 30px;
 }
 
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
 .blog-list {
   display: flex;
   justify-content: space-between;
@@ -150,7 +155,7 @@ body {
 }
 
 .blog .btn {
-  margin-left: auto;
+  align-self: center;
 }
 
 .events-slider {
@@ -187,7 +192,6 @@ body {
   letter-spacing: 0.44px;
 }
 
-
 .countries-slider {
   list-style: none;
   display: flex;
@@ -202,27 +206,36 @@ body {
   margin-bottom: 27px;
 }
 
-
-.testimonial-slider {
+.testimonials-slider {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-.testimonial-slider .item {
-  width: 500px;
+.testimonials-item {
+  padding: 35px;
 }
 
-.testimonial-slider .profile {
+.testimonials-item .paragraph-secondary {
+  width: 430px;
+}
+
+.testimonials-person {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
-.testimonial-slider .profile .box b {
+.testimonials-person img {
+  margin-right: 28px;
+}
+
+.testimonials-bio b {
   display: block;
+  margin-bottom: 4px;
 }
 
-.testimonial-slider .profile .box span {
+.testimonials-bio span {
   display: block;
   color: #37474faf;
 }
