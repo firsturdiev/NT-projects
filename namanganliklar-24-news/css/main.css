@@ -17,15 +17,127 @@ html {
 body {
   color: #000;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
 }
 
 .page-content {
   background: #fff;
 }
 
+.covid {
+  padding: 22px 0 4px;
+}
+
+.covid-statistics {
+  margin-bottom: 18px;
+  padding: 44px 35px;
+  background: #f6f6f9;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.covid-row {
+  margin-right: 30px;
+  padding-right: 70px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #EB5569;
+}
+
+.covid-heading {
+  margin: 0;
+  width: 232px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.covid-icon {
+  margin-right: 25px;
+}
+
+.covid-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.covid-item {
+  margin-right: 30px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #F4CCD1;
+}
+
+.covid-item img {
+  margin-right: 17px;
+}
+
+.covid-item-mask .covid-title {
+  color: #DB0000;
+}
+
+.covid-item-last {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+.covid-news-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.covid-news-item {
+  margin-bottom: 18px;
+  width: 386px;
+}
+
+.covid-news-link {
+  text-decoration: none;
+}
+
+.covid-news-heading {
+  margin: 11px 0;
+  color: #000;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.covid-news-date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6D97;
+}
+
+
+.covid-title {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.covid-title-mask {
+  color: #DB0000;
+}
+
+.covid-title-smile {
+  color: #05B135;
+}
+
+.covid-number {
+  display: block;
+  font-size: 25px;
+}
+
 .news {
-  padding: 40px 0;
+  padding: 38px 0;
 }
 
 .news-inner {
@@ -98,6 +210,7 @@ body {
 }
 
 .news-btn-container {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
 }
