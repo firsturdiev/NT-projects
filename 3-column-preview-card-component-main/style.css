@@ -21,9 +21,9 @@ body {
 
 .page {
   padding: 171px 0;
-  background: #f2f2f2;
+  background: #ce9191;
 }
-
+  
 .card-list {
   display: flex;
 }
@@ -54,6 +54,22 @@ body {
 
 .card-icon {
   margin-bottom: 35px;
+  width: 64px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-icon-orange {
+  background-image: url('./images/icon-sedans.svg');
+}
+
+.card-icon-cyan {
+  background-image: url('images/icon-suvs.svg');
+}
+
+.card-icon-dark-cyan {
+  background-image: url('images/icon-luxury.svg');
 }
 
 .card-heading {
@@ -74,19 +90,13 @@ body {
 
 .card-btn {
   display: inline-block;
-  padding: 12px 31.5px;
+  padding: 12px 32px;
   text-decoration: none;
   color: #fff;
   background-color: #f2f2f2;
   border: 2px solid transparent;
   border-radius: 25px;
   transition: background-color .5s ease, color .5s ease;
-}
-
-.card-btn:hover {
-  background: transparent;
-  color: #fff;
-  border-color: #fff;
 }
 
 .card-orange .card-btn {
@@ -99,4 +109,10 @@ body {
 
 .card-dark-cyan .card-btn {
   color: #004140;
+}
+
+.card-btn:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
 }
