@@ -17,11 +17,11 @@ html {
 
 body {
   font-family: 'Lexend Deca', sans-serif;
-  color: #fff;
 }
 
 .page {
   padding: 171px 0;
+  background: #f2f2f2;
 }
 
 .card-list {
@@ -30,7 +30,11 @@ body {
 
 .card {
   padding: 48px;
-  border-radius: 8px;
+}
+
+.card:first-child,
+.card:last-child {
+  border-radius: 8px 0 0 8px;
 }
 
 .card-orange {
@@ -51,6 +55,7 @@ body {
 
 .card-heading {
   margin-bottom: 25px;
+  color: #f2f2f2;
   font-family: 'Big Shoulders Display', cursive;
   font-size: 40px;
   font-weight: 700;
@@ -59,15 +64,17 @@ body {
 
 .card-text {
   margin-bottom: 83px;
+  color: rgba(255, 255, 255, 0.75);
   font-size: 15px;
   line-height: 25px;
 }
 
 .card-btn {
+  display: inline-block;
   padding: 12px 31.5px;
   text-decoration: none;
   color: #e38826;
-  background-color: #fff;
+  background-color: #f2f2f2;
   border: 2px solid transparent;
   border-radius: 25px;
   transition: background-color .5s ease, color .5s ease;
