@@ -57,7 +57,7 @@ body {
   width: 64px;
   height: 40px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .card-icon-orange {
