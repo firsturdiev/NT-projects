@@ -32,9 +32,12 @@ body {
   padding: 48px;
 }
 
-.card:first-child,
-.card:last-child {
+.card:first-child {
   border-radius: 8px 0 0 8px;
+}
+
+.card:last-child {
+  border-radius: 0 8px 8px 0;
 }
 
 .card-orange {
