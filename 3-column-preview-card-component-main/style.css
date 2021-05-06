@@ -41,15 +41,15 @@ body {
 }
 
 .card-orange {
-  background-color: #e38826;
+  background-color: #E28625;
 }
 
 .card-cyan {
-  background-color: #006970;
+  background-color: #006971;
 }
 
 .card-dark-cyan {
-  background-color: #004241;
+  background-color: #004140;
 }
 
 .card-icon {
@@ -76,7 +76,7 @@ body {
   display: inline-block;
   padding: 12px 31.5px;
   text-decoration: none;
-  color: #e38826;
+  color: #fff;
   background-color: #f2f2f2;
   border: 2px solid transparent;
   border-radius: 25px;
@@ -87,4 +87,16 @@ body {
   background: transparent;
   color: #fff;
   border-color: #fff;
+}
+
+.card-orange .card-btn {
+  color: #E28625;
+}
+
+.card-cyan .card-btn {
+  color: #006971;
+}
+
+.card-dark-cyan .card-btn {
+  color: #004140;
 }
