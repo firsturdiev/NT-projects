@@ -22,7 +22,9 @@ body {
 }
 
 .app {
-  padding: 100px 0;
+  padding-top: 50px;
+  min-height: 100vh;
+  background: #97B3CC;
 }
 
 .chat-profile {
@@ -49,10 +51,13 @@ body {
   color: #fff;
 }
 
+.app-chat {
+  background: #fff;
+}
+
 .chat {
   padding: 20px;
   padding-bottom: 15px;
-  background: #fff;
 }
 
 .chat-day {
@@ -77,13 +82,19 @@ body {
   background: #a19f9f;
 }
 
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .chat-message {
   max-width: 80%;
   margin-bottom: 20px;
 }
 
 .chat-message:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .chat-message-date {
@@ -97,8 +108,39 @@ body {
 .chat-message-text {
   margin: 0;
   padding: 10px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 5px;
   background: #E6EDF6;
 }
 
+.chat-message-you,
+.chat-message-it {
+  align-self: flex-end;
+}
+
+.chat-message-you .chat-message-text {
+  background: #f2f2f2;
+}
+
+.chat-message-it .chat-message-text {
+  background: #FFC2C1;
+}
+
+
+.chat-input {
+  padding: 20px;
+  display: flex;
+  color: #878485;
+  border-top: 2px solid #dedede;
+}
+
+.chat-btn {
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  color: #6A96D8;
+}
