@@ -1,0 +1,80 @@
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #fff;
+}
+
+.page {
+  padding: 171px 0;
+}
+
+.card-list {
+  display: flex;
+}
+
+.card {
+  padding: 48px;
+  border-radius: 8px;
+}
+
+.card-orange {
+  background-color: #e38826;
+}
+
+.card-cyan {
+  background-color: #006970;
+}
+
+.card-dark-cyan {
+  background-color: #004241;
+}
+
+.card-icon {
+  margin-bottom: 35px;
+}
+
+.card-heading {
+  margin-bottom: 25px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-text {
+  margin-bottom: 83px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.card-btn {
+  padding: 12px 31.5px;
+  text-decoration: none;
+  color: #e38826;
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  transition: background-color .5s ease, color .5s ease;
+}
+
+.card-btn:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
