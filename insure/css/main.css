@@ -65,6 +65,7 @@ body {
 }
 
 .page-main {
+  background-color: #fff;
   background-image: url(../img/bg-curves-right.png);
   background-repeat: no-repeat;
   background-position: top 414px left;
@@ -111,7 +112,8 @@ body {
 }
 
 .about {
-  padding: 305px 0;
+  padding-top: 305px;
+  padding-bottom: 150px;
 }
 
 .features {
