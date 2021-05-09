@@ -23,8 +23,143 @@ body {
   background: #fff;
 }
 
+.page-header {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  background-color: #F6F6F9;
+}
+
+.page-header-column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  margin-right: 17px;
+  padding: 11px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+}
+
+.logo img {
+  display: block;
+}
+
+.currency {
+  margin-right: auto;
+  display: flex
+}
+
+.currency-item {
+  margin-right: 25px;
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+.currency-item:last-child {
+  margin-right: 0;
+}
+
+.currency-item b {
+  color: #285193;
+}
+
+.btn-search {
+  margin-right: 22px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  background-image: url('../img/icon-search.svg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center center;
+}
+
+.btn-lang {
+  display: flex;
+  align-items: center;
+  margin-right: 23px;
+  padding: 11px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #535353;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-lang::before {
+  content: '';
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: url('../img/icon-flag-ru.svg');
+  background-size: contain;
+}
+
+.btn-link {
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  background-color: #1E96C8;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color .3s ease;
+}
+
+.btn-link::before {
+  content: '';
+  margin-right: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: url('../img/icon-telegram.svg');
+  background-size: contain;
+}
+
+.btn-link:hover {
+  background: rgba(41, 80, 147, .8); 
+}
+
+.main-nav {
+  margin-bottom: 18px;
+  padding: 22px 24px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+}
+
+.main-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.main-nav-item {
+  margin-right: 26px;
+}
+
+.main-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #515151;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+}
+
+
+
 .covid {
-  padding: 22px 0 4px;
+  margin-bottom: 34px;
+  padding-top: 22px;
 }
 
 .covid-statistics {
@@ -46,8 +181,8 @@ body {
 
 .covid-heading {
   margin: 0;
-  width: 232px;
   font-size: 20px;
+  font-weight: 500;
   line-height: 24px;
 }
 
@@ -106,6 +241,7 @@ body {
   margin: 11px 0;
   color: #000;
   font-size: 17px;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -136,11 +272,47 @@ body {
   font-size: 25px;
 }
 
-.news {
-  padding: 38px 0;
+.notify {
+  padding: 25px 20px;
+  background-color: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
-.news-inner {
+.notify::before {
+  content: '';
+  margin-right: 17px;
+  width: 31px;
+  height: 35px;
+  background-image: url('../img/icon-bell.svg');
+  background-size: contain;
+}
+
+.notify-heading {
+  margin: 0;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.notify-btn {
+  padding: 8px 15px;
+  background-color:  #FF8B36;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.notify-btn:hover {
+  background-color:  #FE5C28;
+}
+
+.news {
+  padding: 38px 0;
   display: flex;
 }
 
@@ -148,6 +320,7 @@ body {
   margin: 0;
   margin-bottom: 13px;
   font-size: 20px;
+  font-weight: 500;
   line-height: 24px;
 }
 
@@ -184,6 +357,7 @@ body {
   width: 450px;
   color: #000;
   font-size: 17px;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -205,8 +379,13 @@ body {
   line-height: 17px;
 }
 
-.news-date img {
+.news-latest .news-date::before {
+  content: '';
   margin-right: 5px;
+  width: 14px;
+  height: 17px;
+  background-image: url('../img/icon-date.svg');
+  background-size: contain;
 }
 
 .news-btn-container {
