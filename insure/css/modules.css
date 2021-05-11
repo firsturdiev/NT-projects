@@ -1,3 +1,33 @@
+
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Regular.woff") format("woff2"),
+  url("../fonts/Karla-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Bold.woff2") format("woff2"),
+    url("../fonts/Karla-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/DMSerifDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -29,11 +59,11 @@
 
 .btn-white:hover {
   background: #fff;
-  color: #2C2830;
+  color: #2c2830;
 }
 
 .heading-primary {
-  font-family: "DM Serif Display", serif;
+  font-family: "DM Serif Display", "Times New Roman", serif;
   font-size: 72px;
   font-weight: normal;
   line-height: 64px;
@@ -41,7 +71,7 @@
 }
 
 .heading-secondary {
-  font-family: "DM Serif Display", serif;
+  font-family: "DM Serif Display", "Times New Roman", serif;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.4px;
