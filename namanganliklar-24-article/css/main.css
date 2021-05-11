@@ -1,13 +1,40 @@
-.container {
-  max-width: 1260px;
-  margin: 0 auto;
-  padding: 0 30px;
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.woff2") format("woff2"),
+    url("../fonts/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
+    url("../fonts/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: inherit;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 html {
@@ -395,6 +422,9 @@ body {
 
 .news-content {
   margin-bottom: 35px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .news-content-col {
@@ -457,6 +487,7 @@ body {
 }
 
 .news-popular {
+  margin-top: 3px;
   margin-bottom: 20px;
   padding: 17px 20px;
   background: #f6f6f9;
@@ -476,6 +507,7 @@ body {
   margin-bottom: 11px;
   width: 350px;
   font-weight: 400;
+  color: #202020;
 }
 
 .ads-banner-namanganliklar-24 {
