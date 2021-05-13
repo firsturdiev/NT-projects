@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Bold.woff2") format("woff2"),
+    url("../fonts/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"),
+    url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ""Fraunces 9pt Soft" Soft";
+  src: url("../fonts/Fraunces9ptSoft-Black.woff2") format("woff2"),
+    url("../fonts/Fraunces9ptSoft-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+ul li:last-child {
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces 9pt Soft";
+  font-weight: 900;
+}
+
+.heading-secondary {
+  margin: 0;
+  font-family: "Fraunces 9pt Soft";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn {
+  padding: 15px 30px;
+  display: inline-block;
+  background-color: #0e8784;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: "Fraunces 9pt Soft";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fefcf7;
+}
