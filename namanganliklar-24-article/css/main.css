@@ -107,20 +107,27 @@ body {
 }
 
 .btn-lang {
-  display: flex;
-  align-items: center;
+  border: none;
   margin-right: 23px;
   padding: 11px;
   background-color: #fff;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.link-lang {
+  
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #535353;
   font-size: 16px;
   font-weight: 500;
 }
 
-.btn-lang::before {
+.link-lang::before {
   content: "";
+  display: inline-block;
   margin-right: 5px;
   width: 20px;
   height: 20px;
