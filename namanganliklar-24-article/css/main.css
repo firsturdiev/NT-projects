@@ -112,11 +112,9 @@ body {
   padding: 11px;
   background-color: #fff;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 .link-lang {
-  
   display: flex;
   align-items: center;
   text-decoration: none;
