@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: ""Fraunces 9pt Soft" Soft";
+  font-family: "Fraunces 9pt";
   src: url("../fonts/Fraunces9ptSoft-Black.woff2") format("woff2"),
     url("../fonts/Fraunces9ptSoft-Black.woff") format("woff");
   font-weight: 900;
@@ -37,17 +37,16 @@ ul li:last-child {
 .heading-primary {
   margin: 0;
   margin-bottom: 32px;
-  font-family: "Fraunces 9pt Soft";
+  font-family: "Fraunces 9pt";
   font-weight: 900;
 }
 
 .heading-secondary {
   margin: 0;
-  font-family: "Fraunces 9pt Soft";
+  font-family: "Fraunces 9pt";
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  text-align: center;
 }
 
 .paragraph {
@@ -62,9 +61,14 @@ ul li:last-child {
   background-color: #0e8784;
   border-radius: 6px;
   text-decoration: none;
-  font-family: "Fraunces 9pt Soft";
+  font-family: "Fraunces 9pt";
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
   color: #fefcf7;
+  transition: background-color .5s ease;
+}
+
+.btn:hover {
+  background-color: #66D2CF;
 }
