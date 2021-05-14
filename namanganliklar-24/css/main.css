@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/rubik-v12-latin-500.woff2") format("woff2"),
+    url("../fonts/rubik-v12-latin-500.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-v12-latin-regular.woff2") format("woff2"),
+    url("../fonts/rubik-v12-latin-regular.woff") format("woff");
+  font-display: swap;
+}
+
 .container {
   max-width: 1260px;
   margin: 0 auto;
@@ -156,7 +174,7 @@ body {
   font-weight: 500;
   font-size: 19px;
   line-height: 23px;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
 }
 
 .main-nav-item a:hover {
@@ -583,7 +601,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
 }
 
 .footer-nav-link:hover {
