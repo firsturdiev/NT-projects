@@ -23,6 +23,14 @@ body {
   align-items: center;
 }
 
+.logo {
+  display: block;
+}
+
+.logo img {
+  display: block;
+}
+
 .main-nav {
   margin-left: auto;
 }
@@ -128,10 +136,9 @@ body {
   margin-bottom: 30px;
 }
 
-
 .blog {
-  display: flex;
-  flex-direction: column;
+  padding: 102px 0 124px;
+  background-color: #fafafa;
 }
 
 .blog-list {
@@ -170,11 +177,17 @@ body {
   text-decoration: none;
 }
 
-.blog .btn {
-  align-self: center;
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.events {
+  padding: 98px 0 108px;
 }
 
 .events-slider {
+  margin-right: -50px;
   list-style: none;
   display: flex;
 }
@@ -182,11 +195,10 @@ body {
 .events-item {
   margin-right: 50px;
   padding: 30px;
-  border-radius: 10px;
-}
-
-.events-item:last-child {
-  margin: 0;
+  width: 540px;
+  background: #ffffff;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
 }
 
 .events-item .heading-tertiary {
@@ -208,6 +220,11 @@ body {
   letter-spacing: 0.44px;
 }
 
+.countries {
+  padding: 82px 0 136px;
+  background-color: #fafafa;
+}
+
 .countries-slider {
   list-style: none;
   display: flex;
@@ -220,6 +237,10 @@ body {
 
 .countries-item img {
   margin-bottom: 27px;
+}
+
+.testimonials {
+  padding: 115px 98px;
 }
 
 .testimonials-slider {
@@ -257,15 +278,69 @@ body {
 }
 
 .main-footer {
+  padding: 82px 0 74px;
+  background-color: #fafafa;
+}
+
+.main-footer-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .main-footer .heading-secondary {
-  margin: 0;
+  margin-right: auto;
 }
 
 .page-footer {
+  padding: 64px 0 45px;
   background: #717cff;
+}
+
+.page-footer-container {
+  display: flex;
+}
+
+.page-footer-about {
+  margin-right: 130px;
+  max-width: 343px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #eee;
+}
+
+.page-footer .logo {
+  margin-bottom: 26px;
+}
+
+.page-address {
+  margin-bottom: 58px;
+}
+
+.footer-nav {
+  margin-top: 6px;
+  margin-right: 150px;
+  display: flex;
+}
+
+.footer-nav-row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 49px;
+  color: #eee;
+}
+
+.footer-nav-row:first-child {
+  margin-right: 106px;
+}
+
+.page-footer .social {
+  margin-top: 171px;
 }

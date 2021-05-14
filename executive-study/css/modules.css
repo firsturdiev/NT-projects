@@ -131,6 +131,7 @@
   border: none;
   border-radius: 50%;
   background: rgba(124, 124, 124, 0.3);
+  cursor: pointer;
 }
 
 .slider-control-btn-active {
