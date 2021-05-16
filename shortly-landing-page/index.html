@@ -14,7 +14,7 @@
   <header class="site-header">
     <div class="container">
       <div class="site-header-inner">
-        <a class="site-logo" href="./">
+        <a class="logo" href="./">
           <img src="./images/logo.svg" width="120" height="32" alt="Shortly logo" />
         </a>
 
@@ -34,9 +34,9 @@
           </ul>
         </nav>
 
-        <div class="site-profile">
-          <a class="btn btn-small btn-transparent site-profile-btn" href="#">Login</a>
-          <a class="btn btn-small site-profile-btn" href="#">Sign up</a>
+        <div class="profile">
+          <a class="btn btn-login profile-btn" href="#">Login</a>
+          <a class="btn btn-primary" href="#">Sign up</a>
         </div>
       </div>
     </div>
@@ -45,13 +45,144 @@
   <main class="site-content">
     <section class="hero">
       <div class="container">
-        <h1 class="heading-primary hero-heading">More than just shorter links</h1>
+        <h1 class="heading hero-heading">More than just shorter links</h1>
         <p class="paragraph hero-paragraph">Build your brand’s recognition and get detailed insights on how your links
           are performing.</p>
-        <a class="btn" href="#">Get started</a>
+        <a class="btn btn-primary btn-large" href="#">Get started</a>
+
+        <div class="shorten-box">
+          <input class="shorten-input" type="url" placeholder="Shorten a link here..." />
+          <button class="btn btn-primary btn-large shorten-box-btn" type="button">Shorten it!</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="statistics">
+      <div class="container">
+        <h2 class="heading statistics-heading">Advanced Statistics</h2>
+        <p class="paragraph statistics-paragraph">Track how your links are performing across the web with our advanced
+          statistics dashboard.</p>
+
+        <ul class="statistics-list">
+          <li class="statistics-item statistics-item-progress">
+            <h3 class="statistics-item-heading">Brand Recognition</h3>
+            <p class="statistics-item-paragraph">Boost your brand recognition with each click. Generic links don’t mean
+              a thing. Branded
+              links help instil confidence in your content.</p>
+          </li>
+
+          <li class="statistics-item statistics-item-speedometer">
+            <h3 class="statistics-item-heading">Detailed Records</h3>
+            <p class="statistics-item-paragraph">Gain insights into who is clicking your links. Knowing when and where
+              people engage
+              with your content helps inform better decisions.</p>
+          </li>
+
+          <li class="statistics-item statistics-item-brush">
+            <h3 class="statistics-item-heading">Fully Customizable</h3>
+            <p class="statistics-item-paragraph">Improve brand awareness and content discoverability through
+              customizable links,
+              supercharging audience engagement.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="get-started">
+      <div class="container">
+        <div class="get-started-inner">
+          <h2 class="heading get-started-heading">Boost your links today</h2>
+          <a class="btn btn-primary btn-large get-started-btn" href="#">Get started</a>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer-inner">
+        <a class="logo" href="./">
+          <img src="./images/logo-light.svg" alt="Shortly logo" />
+        </a>
+
+        <div class="footer-nav">
+          <div class="footer-nav-row">
+            <h3 class="footer-nav-heading">Features</h3>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="#">Link shortening</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Branded</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Analytics</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-row">
+            <h3 class="footer-nav-heading">Resources</h3>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="#">Blog</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Developers</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-row">
+            <h3 class="footer-nav-heading">Company</h3>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="#">About</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Our team</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Careers</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <ul class="social-list">
+            <li class="social-item">
+              <a class="social-link" href="#" target="_blank"></a>
+            </li>
+
+            <li class="social-item">
+              <a class="social-link" href="#" target="_blank"></a>
+            </li>
+
+            <li class="social-item">
+              <a class="social-link" href="#" target="_blank"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

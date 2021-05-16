@@ -22,6 +22,12 @@
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul li:last-child {
   margin: 0;
 }
@@ -34,6 +40,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", "Arial", sans-serif;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #9e9aa8;
 }
 
 .container {
@@ -42,40 +53,50 @@ body {
 }
 
 .btn {
-  padding: 15px 40px;
+  padding: 8px 24px;
   display: inline-block;
-  background: #2bd0d0;
+  border: none;
   border-radius: 28px;
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-  transition: background-color 0.5s ease;
+  white-space: nowrap;
+  cursor: pointer;
 }
 
-.btn:hover {
+.btn-primary {
+  background: #2bd0d0;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+
+.btn-primary:hover {
   background: #9ae3e3;
 }
 
-.btn-small {
-  padding: 8px 24px;
-  font-size: 15px;
-  line-height: 22px;
+.btn-primary:active {
+  background: #2bd0d0;
 }
 
-.btn-transparent {
+.btn-large {
+  padding: 14px 40px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn-login {
   background: transparent;
   color: #9e9aa8;
-  transition: color .5s ease, background-color .5s ease;
+  transition: color 0.5s ease;
 }
 
-.btn-transparent:hover {
-  color: #34313D;
+.btn-login:hover {
+  color: #34313d;
 }
 
-.heading-primary {
+.heading {
   margin: 0;
   max-width: 565px;
   font-weight: bold;
