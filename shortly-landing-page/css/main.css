@@ -225,12 +225,12 @@
   display: flex;
 }
 
-.footer-nav-row {
-  margin-right: 110px;
+.footer-nav-row:first-child {
+  margin-right: 78px;
 }
 
-.footer-nav-row:last-child {
-  margin-right: 0;
+.footer-nav-row:nth-child(2) {
+  margin-right: 106px;
 }
 
 .footer-nav-list {
@@ -270,6 +270,8 @@
 }
 
 .social-links {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   list-style: none;
