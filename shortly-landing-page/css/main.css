@@ -81,9 +81,10 @@
   width: 769px;
   border: none;
   border-radius: 10px;
+  outline: none;
 }
 
-.shorten-box-btn {
+.shorten-btn {
   padding: 14px 32px;
   border-radius: 10px;
 }
