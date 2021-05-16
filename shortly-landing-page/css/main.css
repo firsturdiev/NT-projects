@@ -79,6 +79,11 @@
   margin-right: 24px;
   padding: 14px 32px;
   width: 769px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #34313d;
   border: none;
   border-radius: 10px;
   outline: none;
@@ -208,8 +213,91 @@
 
 .site-footer-inner {
   display: flex;
+  align-items: flex-start;
+}
+
+.site-footer .logo {
+  margin-right: 260px;
 }
 
 .footer-nav {
+  margin-right: 100px;
   display: flex;
+}
+
+.footer-nav-row {
+  margin-right: 110px;
+}
+
+.footer-nav-row:last-child {
+  margin-right: 0;
+}
+
+.footer-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav-heading {
+  margin: 0;
+  margin-bottom: 22px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #fff;
+}
+
+.footer-nav-item {
+  margin-bottom: 10px;
+}
+
+.footer-nav-link {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #bfbfbf;
+  transition: color 0.5s ease;
+}
+
+.footer-nav-link:hover {
+  color: #2bd0d0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.social-item {
+  margin-right: 24px;
+}
+
+.social-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.social-link-facebook {
+  background-image: url("../images/icon-facebook.svg");
+}
+
+.social-link-twitter {
+  height: 19.5px;
+  background-image: url('../images/icon-twitter.svg');
+}
+
+.social-link-pinterest {
+  background-image: url('../images/icon-pinterest.svg');
+}
+
+.social-link-instagram {
+  background-image: url('../images/icon-instagram.svg');
 }
