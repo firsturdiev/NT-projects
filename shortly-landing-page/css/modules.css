@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul li:last-child {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 15px 40px;
+  display: inline-block;
+  background: #2bd0d0;
+  border-radius: 28px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+  background: #9ae3e3;
+}
+
+.btn-small {
+  padding: 8px 24px;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.btn-transparent {
+  background: transparent;
+  color: #9e9aa8;
+  transition: color .5s ease, background-color .5s ease;
+}
+
+.btn-transparent:hover {
+  color: #34313D;
+}
+
+.heading-primary {
+  margin: 0;
+  max-width: 565px;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: #34313d;
+}
+
+.paragraph {
+  margin: 0;
+  max-width: 540px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #9e9aa8;
+}

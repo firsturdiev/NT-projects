@@ -1,0 +1,69 @@
+@import "modules.css";
+
+/* header */
+
+.site-header {
+  margin-bottom: 78px;
+  padding-top: 48px;
+  background-color: #fff;
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: 45px;
+}
+
+.site-logo img {
+  display: block;
+}
+
+.sitenav {
+  margin-right: auto;
+}
+
+.sitenav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.sitenav-item {
+  margin-right: 30px;
+}
+
+.sitenav-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #9e9aa8;
+  transition: color .5s ease;
+}
+
+.sitenav-link:hover {
+  color: #34313D;
+}
+
+/* hero */
+
+.hero {
+  padding-top: 78px;
+  padding-bottom: 70px;
+  background-image: url(../images/hero.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.hero-heading {
+  margin-bottom: 5px;
+}
+
+.hero-paragraph {
+  margin-bottom: 38px;
+}
