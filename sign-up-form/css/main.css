@@ -56,9 +56,14 @@ body {
 }
 
 .page {
-  padding: 120px 165px;
+  padding: 120px 0;
   min-height: 100vh;
   background-image: url("../img/bg.png");
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .form {
