@@ -1,0 +1,91 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main class="page">
+    <div class="container">
+      <section class="sign-up">
+        <div class="hero">
+          <h1 class="hero-heading">Let’s get you set up</h1>
+          <p class="hero-paragraph">It should only take a couple of minutes to pair with your watch</p>
+          <button class="hero-btn" type="button"></button>
+        </div>
+
+        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+          <div class="form-col">
+            <span class="form-title">Name</span>
+            <input placeholder="Chris Coyier" class="form-input-field" type="text" name="full_name" required>
+          </div>
+
+          <div class="form-col">
+            <span class="form-title">Gender</span>
+            <div class="form-options form-options-gender">
+              <label class="form-item form-item-gender">
+                <input class="form-input-radio form-input-radio-gender" type="radio" name="gender" value="male" required>
+                Male
+              </label>
+              <label class="form-item form-item-gender">
+                <input class="form-input-radio form-input-radio-gender" type="radio" name="gender" value="female" required>
+                Female
+              </label>
+            </div>
+          </div>
+
+          <div class="form-col">
+            <span class="form-title">Date of Birth</span>
+            <input placeholder="01/01/2000" class="form-input-field" type="date" name="date_of_birth" required>
+          </div>
+
+          <div class="form-col">
+            <span class="form-title">Email</span>
+            <input placeholder="hello@samandar.io" class="form-input-field" type="email" name="email" required>
+          </div>
+
+          <div class="form-col">
+            <span class="form-title">Mobile</span>
+            <input placeholder="+998 99 999 99 99" class="form-input-field" type="tel" name="phone_number" required>
+          </div>
+
+          <div class="form-col">
+            <span class="form-title">Customer ID</span>
+            <input placeholder="576802-ERD0348 45" class="form-input-field" type="text" name="customer_id" required>
+          </div>
+
+          <div class="form-col">
+            <span class="form-title">Membership</span>
+            <div class="form-options form-options-membership">
+              <label class="form-item form-item-membership">
+                <input class="form-input-radio form-input-radio-membership" type="radio" name="membership" value="classic" required>
+                Classic
+              </label>
+              <label class="form-item form-item-membership">
+                <input class="form-input-radio form-input-radio-membership" type="radio" name="membership" value="silver" required>
+                Silver
+              </label>
+              <label class="form-item form-item-membership">
+                <input class="form-input-radio form-input-radio-membership" type="radio" name="membership" value="gold" required>
+                Gold
+              </label>
+            </div>
+          </div>
+
+          <div class="form-buttons">
+            <button class="form-btn form-btn-grey" type="reset">Cancel</button>
+            <button class="form-btn form-btn-teal" type="submit">Save</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
