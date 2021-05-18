@@ -115,6 +115,7 @@ body {
 }
 
 .form-input-field:focus {
+  background-color: rgba(245, 248, 249, 0.3);
   border-color: var(--color-border);
   outline: none;
 }
