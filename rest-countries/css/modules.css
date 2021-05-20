@@ -2,9 +2,29 @@
   --color-primary: #fff;
   --color-secondary: #f2f2f2;
   --color-text-primary: #111517;
-  --color-text-secondary: #848484;
-  --border-radius: 5px;
+  --color-text-placeholder: #848484;
 }
+
+.theme-dark {
+  --color-primary: #2B3844;
+  --color-secondary: #202C36;
+  --color-text-primary: #fff;
+  --color-text-placeholder: #fff;
+}
+
+.theme-dark .theme-btn {
+  background-image: url('../img/icon-moon-dark.svg');
+}
+
+.theme-dark .countries-search {
+  background-image: url('../img/icon-search-dark.svg');
+}
+
+.theme-dark .countries-dropdown {
+  background-image: url('../img/icon-arrow-bottom-dark.svg');
+}
+
+
 
 @font-face {
   font-family: "Nunito Sans";
@@ -44,7 +64,6 @@
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 .visually-hidden {
