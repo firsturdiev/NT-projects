@@ -3,7 +3,8 @@
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 img {
@@ -12,7 +13,8 @@ img {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 100%;
 }
 
@@ -49,11 +51,16 @@ body {
 .jobs-item {
   margin-bottom: 24px;
   padding: 32px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: var(--color-bg-jobs);
   border-radius: 5px;
-  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  -webkit-box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+          box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
 }
 
 .jobs-item:last-child {
@@ -73,8 +80,12 @@ body {
 }
 
 .jobs-info-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .jobs-info-col-primary {
@@ -122,6 +133,8 @@ body {
   letter-spacing: normal;
   text-transform: capitalize;
   color: var(--color-text-title);
+  -webkit-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
   transition: color 0.4s ease;
 }
 
@@ -135,8 +148,12 @@ body {
 
 .jobs-info-span {
   margin-right: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .jobs-info-span::after {
@@ -174,6 +191,8 @@ body {
   font-size: 13px;
   border: none;
   border-radius: 4px;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  -o-transition: background-color 0.5s ease, color 0.5s ease;
   transition: background-color 0.5s ease, color 0.5s ease;
   outline: none;
   cursor: pointer;
