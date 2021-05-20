@@ -1,0 +1,85 @@
+@import "modules.css";
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-text-primary);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.site-header {
+  padding: 24px 0;
+  background-color: var(--color-primary);
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-heading {
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.site-header-btn {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.countries {
+  padding: 48px 0 45px;
+}
+
+.countries-top {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries-search {
+  padding: 18px 0;
+  padding-left: 32px;
+  width: 480px;
+  background-color: var(--color-primary);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+}
+
+.countries-search::placeholder {
+  color: var(--color-text-secondary);
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.countries-dropdown {
+  padding: 18px 24px;
+  outline: none;
+  border: none;
+}
