@@ -135,11 +135,25 @@ body {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #fff;
+  border: 1px solid transparent;
   border-radius: 6px;
   cursor: pointer;
+  transition: all .5s ease;
+}
+
+.cards-btn:hover {
+  background: transparent !important;
+  border-color: #6D72DE;
+  color: #6D72DE;
 }
 
 .cards-plan-professional .cards-btn {
   background: #fff;
   color: #6D72DE;
+}
+
+.cards-plan-professional .cards-btn:hover {
+  color: #fff;
+  background: #fff;
+  border-color: #fff;
 }
