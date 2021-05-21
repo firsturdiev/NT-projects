@@ -29,6 +29,7 @@ body {
 }
 
 .pricing {
+  min-height: 100vh;
   padding-top: 70px;
   padding-bottom: 100px;
   background-color: var(--color-primary);

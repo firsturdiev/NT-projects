@@ -113,18 +113,22 @@ body {
   border-radius: 10px;
 }
 
-.form-input-field {
+.form-input {
   margin-bottom: 20px;
+}
+
+.form-input-field {
   padding: 15px 30px;
   width: 460px;
   background: #fff;
-  border: 1px solid #dedede;
+  border: 2px solid #dedede;
   border-radius: 5px;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.25px;
   color: #3d3b48;
   outline: none;
+  transition: border 0.3s ease;
 }
 
 .form-input-field::placeholder {
@@ -135,7 +139,41 @@ body {
 }
 
 .form-input-field:focus {
-  border: 1px solid #5e54a4;
+  border: 2px solid #5e54a4;
+}
+
+.form-input-field:not(:placeholder-shown):not(:focus):invalid {
+  border: 2px solid #ff7979;
+  background-image: url("../img/icon-invalid.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.form-input-text {
+  display: none;
+}
+
+.form-input-field:not(:placeholder-shown):not(:focus):invalid
+  ~ .form-input-text {
+  margin-top: 6px;
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: right;
+  color: #ff7979;
+}
+
+.form-submit:focus ~ {
+  margin-top: 6px;
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: right;
+  color: #ff7979;
 }
 
 .form-submit {

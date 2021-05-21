@@ -23,16 +23,28 @@
         <p class="form-tip"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
 
         <div class="form-input-box">
-          <label class="visually-hidden" for="first_name">First name</label>
-          <input class="form-input-field" type="text" placeholder="First name" name="first_name" id="first_name" required>
-          <label class="visually-hidden" for="last_name">Last name</label>
-          <input class="form-input-field" type="text" placeholder="Last name" name="last_name" id="last_name" required>
-          <label class="visually-hidden" for="email">Email address</label>
-          <input class="form-input-field" type="email" placeholder="Email address" name="email" id="email" required>
-          <label class="visually-hidden" for="password">Password</label>
-          <input class="form-input-field" type="password" placeholder="Password" name="password" id="password" required>
-          
+          <div class="form-input">
+            <input class="form-input-field" type="text" placeholder="First name" name="first_name" id="first_name"
+              required>
+            <span class="form-input-text">First Name cannot be empty</span>
+          </div>
+          <div class="form-input">
+            <input class="form-input-field" type="text" placeholder="Last name" name="last_name" id="last_name"
+              required>
+            <span class="form-input-text">Last Name cannot be empty</span>
+          </div>
+          <div class="form-input">
+            <input class="form-input-field" type="email" placeholder="Email address" name="email" id="email" required>
+            <span class="form-input-text">Looks like this is not an email</span>
+          </div>
+          <div class="form-input">
+            <input class="form-input-field" type="password" placeholder="Password" name="password" id="password"
+              required>
+            <span class="form-input-text">Password cannot be empty</span>
+          </div>
+
           <button class="form-submit" type="submit">Claim your free trial</button>
+
           <p class="form-agree-text">
             By clicking the button, you are agreeing to our
             <a class="form-agree-link" href="#">Terms and Services</a>
