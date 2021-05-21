@@ -165,17 +165,6 @@ body {
   color: #ff7979;
 }
 
-.form-submit:focus ~ {
-  margin-top: 6px;
-  display: block;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 16px;
-  text-align: right;
-  color: #ff7979;
-}
-
 .form-submit {
   padding: 15px 0;
   width: 460px;
