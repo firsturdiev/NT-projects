@@ -78,6 +78,8 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-text-white);
+  -webkit-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
   transition: background-color .5s ease;
 }
 
