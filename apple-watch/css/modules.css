@@ -1,0 +1,86 @@
+:root {
+  --bg-primary: #fff;
+  --color-btn: #ea625c;
+  --color-text-primary: #333;
+  --color-text-heading: #000;
+  --color-text-feauture-heading: #222;
+  --color-text-paragraph: #777;
+  --color-text-white: #fff;
+  --color-text-placeholder: #666;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  max-width: 490px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: var(--color-text-heading);
+}
+
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  max-width: 450px;
+  color: var(--color-text-paragraph);
+  border-left: 3px solid #888888;
+}
+
+.btn {
+  padding: 12px 38px;
+  display: inline-block;
+  background-color: var(--color-btn);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+  transition: background-color .5s ease;
+}
+
+.btn:hover {
+  background-color: #C9514C;
+}
