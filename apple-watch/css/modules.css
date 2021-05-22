@@ -43,6 +43,11 @@ img {
   overflow: hidden;
 }
 
+.wrapper {
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -85,4 +90,8 @@ img {
 
 .btn:hover {
   --color-btn: #C9514C;
+}
+
+.btn:active {
+  --color-btn: #ea625c;
 }
