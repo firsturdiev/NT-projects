@@ -94,6 +94,7 @@ body {
   background-image: url("../img/intro-bg.png");
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: contain;
   border-bottom: 2px solid #ddd;
 }
 
@@ -153,7 +154,7 @@ body {
   transition: color 0.5s ease;
 }
 
-.feature-divider--btn:hover {
+.feature-btn:hover {
   --color-btn: #c9514c;
 }
 
@@ -206,9 +207,10 @@ body {
 
 .explore-text {
   float: right;
+  --color-text-heading: #fff;
+  --color-text-paragraph: #fff;
 }
 
-.explore-heading,
 .explore-paragraph {
-  color: var(--color-text-white);
+  border-color: #fff;
 }
