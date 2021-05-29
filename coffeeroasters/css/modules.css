@@ -72,3 +72,12 @@ ul li:last-child {
 .btn:hover {
   background-color: #66D2CF;
 }
+
+.btn {
+  padding: 15px 30px;
+  display: inline-block;
+  background-color: #0e8784;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fefcf7;
+}
