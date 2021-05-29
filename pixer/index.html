@@ -217,7 +217,8 @@
         </div>
 
         <form class="order__form form" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset class="form__input">
+          <label class="visually-hidden" for="formInput">Buyurtma ma'lumotlarni kiritish</label>
+          <fieldset class="form__input" id="formInput">
             <label class="visually-hidden" for="fullName">Ismingiz</label>
             <input class="form__input-field" type="text" placeholder="Ismingiz" name="full_name" id="fullName" required>
 
@@ -236,7 +237,7 @@
             </select>
           </fieldset>
 
-          <button class="btn form__submit" type="submit">Buyurtma berish</button>
+          <button class="btn form__submit" type="submit" id="formSubmit">Buyurtma berish</button>
         </form>
       </div>
     </section>
