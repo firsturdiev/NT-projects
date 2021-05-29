@@ -1,5 +1,4 @@
-@import "modules.css";
-@import "normalize.css";
+@import 'modules.css';
 
 *,
 *::after,
@@ -52,15 +51,15 @@ body {
 
 .logo {
   margin-right: auto;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .logo:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .logo:active {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .logo-img {
@@ -91,8 +90,8 @@ body {
   text-decoration: none;
   text-align: center;
   border-bottom: 3px solid transparent;
-  transition: background-color 0.5s ease, color 0.5s ease,
-    border-color 0.5s ease;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .sitenav__link:hover {
@@ -111,8 +110,8 @@ body {
   border: 3px solid transparent;
   color: var(--color-white);
   border-radius: 5px;
-  transition: border-color 0.5s ease, color 0.5s ease,
-    background-color 0.5s ease;
+  transition: border-color 0.3s ease, color 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .phone-number:hover {
@@ -320,42 +319,47 @@ body {
   margin-bottom: 48px;
 }
 
+.step:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .step::before {
-  content: '';
-  flex-grow: 1;
-  height: 200px;
+  content: "";
+  margin-right: 32px;
+  width: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.step:nth-child(even) {
-  flex-direction: row-reverse;
+.step:nth-child(even)::before {
+  margin-right: 0;
+  margin-left: 32px;
 }
 
 .step-1::before {
   height: 278px;
-  background-image: url('../img/step-1-illlustration.png');
+  background-image: url("../img/step-1-illlustration.png");
 }
 
 .step-2::before {
   height: 225px;
-  background-image: url('../img/step-2-illlustration.png');
+  background-image: url("../img/step-2-illlustration.png");
 }
 
 .step-3::before {
   height: 260px;
-  background-image: url('../img/step-3-illustration.png');
+  background-image: url("../img/step-3-illustration.png");
 }
 
 .step-4::before {
   height: 171px;
-  background-image: url('../img/step-4-illustration.png');
+  background-image: url("../img/step-4-illustration.png");
 }
 
 .step-5::before {
   height: 232px;
-  background-image: url('../img/step-5-illustration.png');
+  background-image: url("../img/step-5-illustration.png");
 }
 
 .step__info {

@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>test</title>
+  <title>Pixer</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css"> -->
 </head>
 
 <body>
@@ -15,6 +17,8 @@
   <header class="site-header">
     <div class="container">
       <div class="site-header__inner">
+        <h2 class="visually-hidden">Website header</h2>
+
         <a class="logo" href="./index.html">
           <img class="logo-img" src="./img/logo.svg" width="58" height="20" alt="Pixer logo">
         </a>
@@ -86,8 +90,9 @@
             <a class="btn" href="#services">Xizmatlar bilan tanishish</a>
           </div>
 
-          <iframe class="promo__video" src="https://www.youtube.com/embed/6_pru8U2RmM"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="promo__video" src="https://www.youtube.com/embed/6_pru8U2RmM" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
       </div>
     </section>
@@ -104,35 +109,35 @@
 
         <ul class="services__list">
           <li class="services__item">
-            <a class="service service--web" href="#">
+            <a class="service service--web" href="./website.html">
               <h3 class="heading-secondary">Vebsayt tuzish</h3>
               <p class="paragraph">lorem ipsum</p>
             </a>
           </li>
 
           <li class="services__item">
-            <a class="service service--bot" href="#">
+            <a class="service service--bot" href="./telegram-bot.html">
               <h3 class="heading-secondary">Telegram bot</h3>
               <p class="paragraph">lorem ipsum</p>
             </a>
           </li>
 
           <li class="services__item">
-            <a class="service service--smm" href="#">
+            <a class="service service--smm" href="./smm.html">
               <h3 class="heading-secondary">SMM</h3>
               <p class="paragraph">lorem ipsum</p>
             </a>
           </li>
 
           <li class="services__item">
-            <a class="service service--design" href="#">
+            <a class="service service--design" href="./design.html">
               <h3 class="heading-secondary">Grafik dizayn</h3>
               <p class="paragraph">lorem ipsum</p>
             </a>
           </li>
 
           <li class="services__item">
-            <a class="service service--crm" href="#">
+            <a class="service service--crm" href="./crm.html">
               <h3 class="heading-secondary">CRM tizimlar</h3>
               <p class="paragraph">lorem ipsum</p>
             </a>
@@ -220,8 +225,9 @@
             <input class="form__input-field" type="tel" placeholder="Telefon raqamingiz" name="phone_number"
               id="phoneNumber" required>
 
+            <label class="visually-hidden" for="serviceType">Xizmat turini tanlang</label>
             <select class="form__input-field" name="service_type" id="serviceType" required>
-              <option selected disabled>Xizmat turi</option>
+              <option value="" selected disabled>Xizmat turi</option>
               <option value="web">Vebsayt</option>
               <option value="bot">Telegram bot</option>
               <option value="smm">SMM</option>
@@ -296,7 +302,7 @@
           </ul>
         </div>
       </div>
-      </div>
+    </div>
   </footer>
 
 </body>
