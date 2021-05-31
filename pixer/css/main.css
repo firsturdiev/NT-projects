@@ -286,7 +286,7 @@ body {
   margin-right: 16px;
 }
 
-.services__link {
+.link {
   display: inline-block;
   color: var(--color-blue);
 }
@@ -490,7 +490,7 @@ body {
 }
 
 .social__link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: var(--color-white);
