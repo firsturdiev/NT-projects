@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="logo" href="./">
+          <img class="logo-img" src="./img/logo.svg" alt="Bookmark logo">
+        </a>
+
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Features</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Pricing</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="login" href="#">Login</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="site-content">
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="text-wrapper hero__text-wrapper">
+          <h1 class="heading hero-heading">A Simple Bookmark Manager</h1>
+          <p class="paragraph">A clean and simple interface to organize your favourite websites. Open a new browser tab
+            and see your sites load instantly. Try it for free.</p>
+
+          <div class="hero__btn-group">
+            <a class="btn" href="https://chrome.google.com/webstore" target="_blank">Get it on Chrome</a>
+            <a class="btn btn--transparent" href="https://addons.mozilla.org/en-US/firefox" target="_blank">Get it on
+              Firefox</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EXTENSIONS -->
+
+    <section class="extensions">
+      <div class="container">
+        <div class="text-intro extension__text-intro">
+          <h2 class="heading">Download the extension</h2>
+          <p class="paragraph">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite
+            you’d like us to prioritize.</p>
+        </div>
+
+        <ul class="extensions__list">
+          <li class="extension" style="--i: 0">
+            <div class="extension__info">
+              <img class="extension__logo" src="./img/logo-chrome.svg" width="102" height="100" alt="Chrome logo">
+              <h3 class="extension__title">Add to Chrome</h3>
+              <p class="paragraph">Minimum version 62</p>
+            </div>
+
+            <a class="btn" href="https://chrome.google.com/webstore" target="_blank">Add & Install Extension</a>
+          </li>
+
+          <li class="extension" style="--i: 1">
+            <div class="extension__info">
+              <img class="extension__logo" src="./img/logo-firefox.svg" width="105" height="100" alt="Firefox logo">
+              <h3 class="extension__title">Add to Firefox</h3>
+              <p class="paragraph">Minimum version 55</p>
+            </div>
+
+            <a class="btn" href="https://addons.mozilla.org/en-US/firefox" target="_blank">Add & Install Extension</a>
+          </li>
+
+          <li class="extension" style="--i: 2">
+            <div class="extension__info">
+              <img class="extension__logo" src="./img/logo-opera.svg" width="96" height="100" alt="Opera logo">
+              <h3 class="extension__title">Add to Opera</h3>
+              <p class="paragraph">Minimum version 46</p>
+            </div>
+
+            <a class="btn" href="https://addons.opera.com/en/extensions" target="_blank">Add & Install Extension</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner"></div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+:root {
+  --color-blue: #5267df;
+  --color-red: #fa5959;
+  --color-black: #242a45;
+  --color-grey: #9194a2;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.woff2") format("woff2"),
+    url("../fonts/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
+    url("../fonts/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-wrapper .paragraph {
+  margin-bottom: 32px;
+}
+
+.heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+}
+
+.paragraph {
+  margin: 0;
+  color: rgba(36, 42, 69, 0.5);
+}
+
+.btn {
+  padding: 10px 24px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #fff;
+  background-color: var(--color-blue);
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  border-radius: 5px;
+}
+
+.btn--transparent {
+  margin-left: 16px;
+  color: rgba(36, 42, 69, 0.75);
+  background-color: #f7f7f7;
+}
+
+.text-intro {
+  margin: 0 auto;
+  max-width: 540px;
+  text-align: center;
+}

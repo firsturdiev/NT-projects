@@ -1,0 +1,82 @@
+@import "modules.css";
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Righteous", cursive;
+  color: #fff;
+  background: url(../img/bg.jpg);
+}
+
+.site-header {
+  padding: 32px 0;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo__img {
+  margin-right: 20px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mail::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background-image: url("../img/icon-message.svg");
+}
+
+.sitenav__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.9);
+}
+
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+}
+
+.sitenav__link {
+  display: block;
+  font-size: 24px;
+  line-height: 48px;
+  text-decoration: none;
+  text-align: right;
+  color: #fff;
+}
