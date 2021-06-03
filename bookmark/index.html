@@ -31,7 +31,7 @@
           </ul>
         </nav>
 
-        <a class="login" href="#">Login</a>
+        <a class="btn btn--large btn--login" href="#">Login</a>
       </div>
     </div>
   </header>
@@ -43,14 +43,17 @@
 
     <section class="hero">
       <div class="container">
-        <div class="text-wrapper hero__text-wrapper">
-          <h1 class="heading hero-heading">A Simple Bookmark Manager</h1>
-          <p class="paragraph">A clean and simple interface to organize your favourite websites. Open a new browser tab
+        <div class="hero__text-wrapper text-wrapper">
+          <h1 class="text-wrapper__heading hero__heading">A Simple Bookmark Manager</h1>
+          <p class="text-wrapper__text">A clean and simple interface to organize your favourite websites. Open a new
+            browser tab
             and see your sites load instantly. Try it for free.</p>
 
-          <div class="hero__btn-group">
-            <a class="btn" href="https://chrome.google.com/webstore" target="_blank">Get it on Chrome</a>
-            <a class="btn btn--transparent" href="https://addons.mozilla.org/en-US/firefox" target="_blank">Get it on
+          <div class="text-wrapper__actions">
+            <a class="text-wrapper__actions-item btn" href="https://chrome.google.com/webstore" target="_blank">Get it
+              on Chrome</a>
+            <a class="text-wrapper__actions-item btn btn--transparent" href="https://addons.mozilla.org/en-US/firefox"
+              target="_blank">Get it on
               Firefox</a>
           </div>
         </div>
@@ -62,41 +65,52 @@
 
     <section class="extensions">
       <div class="container">
-        <div class="text-intro extension__text-intro">
-          <h2 class="heading">Download the extension</h2>
-          <p class="paragraph">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite
+        <div class="extensions__intro-text intro-text">
+          <h2 class="intro-text__heading">Download the extension</h2>
+          <p class="intro-text__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a
+            favourite
             you’d like us to prioritize.</p>
         </div>
 
         <ul class="extensions__list">
-          <li class="extension" style="--i: 0">
-            <div class="extension__info">
+          <li class="extensions__item extension extension--chrome">
+            <div class="extension__top">
               <img class="extension__logo" src="./img/logo-chrome.svg" width="102" height="100" alt="Chrome logo">
               <h3 class="extension__title">Add to Chrome</h3>
-              <p class="paragraph">Minimum version 62</p>
+              <p class="extension__version">Minimum version 62</p>
             </div>
 
-            <a class="btn" href="https://chrome.google.com/webstore" target="_blank">Add & Install Extension</a>
+            <div class="extension__actions">
+              <a class="btn btn--large" href="https://chrome.google.com/webstore" target="_blank">Add & Install
+                Extension</a>
+
+            </div>
           </li>
 
-          <li class="extension" style="--i: 1">
-            <div class="extension__info">
+          <li class="extensions__item extension extension--firefox">
+            <div class="extension__top">
               <img class="extension__logo" src="./img/logo-firefox.svg" width="105" height="100" alt="Firefox logo">
               <h3 class="extension__title">Add to Firefox</h3>
-              <p class="paragraph">Minimum version 55</p>
+              <p class="extension__version">Minimum version 55</p>
             </div>
 
-            <a class="btn" href="https://addons.mozilla.org/en-US/firefox" target="_blank">Add & Install Extension</a>
+            <div class="extension__actions">
+              <a class="btn btn--large" href="https://addons.mozilla.org/en-US/firefox" target="_blank">Add & Install
+                Extension</a>
+            </div>
           </li>
 
-          <li class="extension" style="--i: 2">
-            <div class="extension__info">
+          <li class="extensions__item extension extension--opera">
+            <div class="extension__top">
               <img class="extension__logo" src="./img/logo-opera.svg" width="96" height="100" alt="Opera logo">
               <h3 class="extension__title">Add to Opera</h3>
-              <p class="paragraph">Minimum version 46</p>
+              <p class="extension__version">Minimum version 46</p>
             </div>
 
-            <a class="btn" href="https://addons.opera.com/en/extensions" target="_blank">Add & Install Extension</a>
+            <div class="extension__actions">
+              <a class="btn btn--large" href="https://addons.opera.com/en/extensions" target="_blank">Add & Install
+                Extension</a>
+            </div>
           </li>
         </ul>
       </div>

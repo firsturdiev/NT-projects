@@ -1,9 +1,13 @@
+/* VARIABLES */
+
 :root {
   --color-blue: #5267df;
   --color-red: #fa5959;
   --color-black: #242a45;
   --color-grey: #9194a2;
 }
+
+/* FONT */
 
 @font-face {
   font-family: "Rubik";
@@ -22,6 +26,8 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* FOR ALL */
 
 img {
   max-width: 100%;
@@ -47,23 +53,7 @@ img {
   padding: 0 20px;
 }
 
-.text-wrapper .paragraph {
-  margin-bottom: 32px;
-}
-
-.heading {
-  margin: 0;
-  margin-bottom: 16px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 52px;
-  letter-spacing: -0.1px;
-}
-
-.paragraph {
-  margin: 0;
-  color: rgba(36, 42, 69, 0.5);
-}
+/* BTN */
 
 .btn {
   padding: 10px 24px;
@@ -75,17 +65,92 @@ img {
   color: #fff;
   background-color: var(--color-blue);
   box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  border: 2px solid transparent;
   border-radius: 5px;
+  transition: color .3s ease,
+    background-color .3s ease,
+    border-color .3s ease;
+}
+
+.btn:hover {
+  color: var(--color-blue);
+  background-color: transparent;
+  border-color: var(--color-blue);
+}
+
+.btn--login {
+  padding: 12px 35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  background-color: var(--color-red);
+}
+
+.btn--login:hover {
+  color: var(--color-red);
+  background-color: transparent;
+  border-color: var(--color-red);
 }
 
 .btn--transparent {
-  margin-left: 16px;
   color: rgba(36, 42, 69, 0.75);
   background-color: #f7f7f7;
 }
 
-.text-intro {
+.btn--transparent:hover {
+  color: #5B6074;
+  background-color: transparent;
+  border-color: #5B6074;
+}
+
+.btn--large {
+  display: block;
+}
+
+/* TEXT-WRAPPER */
+
+.text-wrapper__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+  color: var(--color-black);
+}
+
+.text-wrapper__text {
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.text-wrapper__actions {
+  display: flex;
+}
+
+.text-wrapper__actions-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+/* INTRO-TEXT */
+
+.intro-text {
   margin: 0 auto;
   max-width: 540px;
   text-align: center;
+}
+
+.intro-text__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+  color: var(--color-black);
+}
+
+.intro-text__text {
+  margin: 0;
 }
