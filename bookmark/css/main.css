@@ -121,13 +121,13 @@ body {
   padding: 0 100px;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   list-style: none;
 }
 
 .extensions__item {
   margin-right: 35px;
   width: 280px;
-  height: min-content;
 }
 
 .extensions__item:nth-child(3n + 2) {
