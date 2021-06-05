@@ -60,6 +60,7 @@ img {
   display: inline-block;
   text-decoration: none;
   font-weight: 500;
+  line-height: 24px;
   font-size: 14px;
   letter-spacing: 0.25px;
   color: #fff;
@@ -106,6 +107,18 @@ img {
 
 .btn--large {
   display: block;
+}
+
+.btn--red {
+  background-color: var(--color-red);
+  color: #fff;
+}
+
+.btn--red:hover {
+  color: var(--color-red);
+  background-color: #fff;
+  border-color: var(--color-red);
+  cursor: pointer;
 }
 
 /* TEXT-WRAPPER */
