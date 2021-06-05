@@ -414,15 +414,15 @@ body {
 .form__input-field {
   display: block;
   width: 100%;
-  padding: 10px 20px;
+  padding: 8px 18px;
   font-size: 14px;
   line-height: 28px;
   letter-spacing: 0.25px;
   color: var(--color-black);
   background-color: #fff;
   border: none;
+  outline: none;
   border-radius: 5px;
-  border: 0 solid var(--color-red);
   background-image: url(../img/icon-error-disc.svg);
   background-repeat: no-repeat;
   background-position: right 14px center;
@@ -434,21 +434,40 @@ body {
 }
 
 .form__input-field:not(:placeholder-shown):not(:focus):invalid {
-  border-width: 2px;
   background-size: 20px;
 }
 
-.form__input-error {
+.form__input-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 2px;
+}
+
+.form__error-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
   display: none;
+  width: 100%;
+  min-height: 70px;
+  background-color: var(--color-red);
+  border-radius: 5px;
+}
+
+.form__error {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   padding: 4px 12px 6px;
+  font-style: italic;
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 0.25px;
 }
 
-.form__input-field:not(:placeholder-shown):not(:focus):invalid
-  ~ .form__input-error {
+.form__input-field:not(:placeholder-shown):not(:focus):invalid ~ .form__error-wrapper {
   display: block;
 }
 
@@ -488,13 +507,12 @@ body {
 .social__link {
   display: flex;
   color: #fff;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
 }
 
 .social__link:hover {
   color: var(--color-red);
 }
-
 
 /* 2X BACKGROUND IMAGES */
 

@@ -1,5 +1,1 @@
-<svg width="96" height="100" viewBox="0 0 96 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Combined Shape 2">
-<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M48 100C74.5097 100 96 77.6142 96 50C96 22.3858 74.5097 0 48 0C21.4903 0 0 22.3858 0 50C0 77.6142 21.4903 100 48 100ZM48 90C61.8071 90 73 72.0914 73 50C73 27.9086 61.8071 10 48 10C34.1929 10 23 27.9086 23 50C23 72.0914 34.1929 90 48 90Z" fill="#EB6060"/>
-</g>
-</svg>
+<svg width="96" height="100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48 100c26.51 0 48-22.386 48-50S74.51 0 48 0 0 22.386 0 50s21.49 50 48 50zm0-10c13.807 0 25-17.909 25-40S61.807 10 48 10 23 27.909 23 50s11.193 40 25 40z" fill="#EB6060"/></svg>
