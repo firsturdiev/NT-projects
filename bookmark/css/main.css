@@ -316,7 +316,7 @@ body {
   transition: color 0.3s ease;
 }
 
-.accordion__top:hover .accordion__question {
+.accordion__item:not(.accordion__item--active) .accordion__top:hover .accordion__question {
   color: var(--color-red);
 }
 
@@ -407,14 +407,12 @@ body {
 .form__input-wrapper {
   flex-grow: 1;
   margin-right: 16px;
-  background-color: var(--color-red);
-  border-radius: 5px;
 }
 
 .form__input-field {
   display: block;
   width: 100%;
-  padding: 8px 18px;
+  padding: 10px 18px;
   font-size: 14px;
   line-height: 28px;
   letter-spacing: 0.25px;
