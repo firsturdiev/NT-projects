@@ -64,34 +64,61 @@
     <!-- FEATURES -->
 
     <section class="features">
-      <div class="container">
-        <div class="intro-text features__intro-text">
-          <h2 class="intro-text__heading">Features</h2>
-          <p class="intro-text__text">Our aim is to make it quick and easy for you to access your favourite websites.
-            Your bookmarks sync between your devices so you can access them on the go.</p>
-        </div>
+      <div class="intro-text features__intro-text">
+        <h2 class="intro-text__heading">Features</h2>
+        <p class="intro-text__text">Our aim is to make it quick and easy for you to access your favourite websites.
+          Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
 
-        <ul class="features__list">
-          <li class="features__item tab tab--active">
-            <button class="tab__control" type="button">Simple bookmarking</button>
-          </li>
-          <li class="features__item tab">
-            <button class="tab__control" type="button">Speedy searching</button>
-          </li>
-          <li class="features__item tab">
-            <button class="tab__control" type="button">Easy sharing</button>
-          </li>
-        </ul>
+      <ul class="features__list">
+        <li class="features__item tab tab--active">
+          <a class="tab__control" href="#panel__item-1">Simple bookmarking</a>
+        </li>
+        <li class="features__item tab">
+          <a class="tab__control" href="#panel__item-2">Speedy searching</a>
+        </li>
+        <li class="features__item tab">
+          <a class="tab__control" href="#panel__item-3">Easy sharing</a>
+        </li>
+      </ul>
 
-        <div class="features__content">
-          <img class="features__hero" src="./img/features-bg-1.svg" alt="Bookmar in one click">
+      <div class="features__content">
+        <div class="container">
+          <ul class="panel">
+            <li class="panel__item panel__item--active" id="panel__item-1">
+              <img class="panel__img" src="./img/features-bg-1.svg" aria-hidden="true">
 
-          <div class="text-wrapper features__text-wrapper">
-            <h3 class="text-wrapper__heading">Bookmark in one click</h3>
-            <p class="text-wrapper__text">Organize your bookmarks however you like. Our simple drag-and-drop interface
-              gives you complete control over how you manage your favourite sites.</p>
-            <a class="btn" href="#">More Info</a>
-          </div>
+              <div class="text-wrapper panel__text-wrapper">
+                <h3 class="text-wrapper__heading">Bookmark in one click</h3>
+                <p class="text-wrapper__text">Organize your bookmarks however you like. Our simple drag-and-drop
+                  interface
+                  gives you complete control over how you manage your favourite sites.</p>
+                <a class="btn" href="#">More Info</a>
+              </div>
+            </li>
+
+            <li class="panel__item" id="panel__item-2">
+              <img class="panel__img" src="./img/features-bg-2.svg" aria-hidden="true">
+
+              <div class="text-wrapper panel__text-wrapper">
+                <h3 class="text-wrapper__heading">Intelligent search</h3>
+                <p class="text-wrapper__text">Our powerful search feature will help you find saved sites in no time at
+                  all. No need to trawl through all of your bookmarks.</p>
+                <a class="btn" href="#">More Info</a>
+              </div>
+            </li>
+
+            <li class="panel__item" id="panel__item-3">
+              <img class="panel__img" src="./img/features-bg-3.svg" aria-hidden="true">
+
+              <div class="text-wrapper panel__text-wrapper">
+                <h3 class="text-wrapper__heading">Share your bookmarks</h3>
+                <p class="text-wrapper__text">Easily share your bookmarks and collections with others. Create a
+                  shareable link that you can send at the click of a button..</p>
+                <a class="btn" href="#">More Info</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

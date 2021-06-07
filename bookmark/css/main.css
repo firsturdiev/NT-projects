@@ -115,11 +115,7 @@ body {
 } */
 
 .features {
-  background-image: url("../img/features-rect.svg");
-  background-repeat: no-repeat;
-  background-position: calc(50% - 580px) bottom;
   margin-bottom: 150px;
-  padding-bottom: 90px;
 }
 
 .features__intro-text {
@@ -152,14 +148,16 @@ body {
 }
 
 .tab__control {
+  display: block;
   padding: 0;
   padding-bottom: 27px;
   width: 100%;
   height: 100%;
   font-size: 16px;
   line-height: 17px;
-  text-align: center;
   letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
   text-transform: capitalize;
   color: rgba(36, 42, 69, 0.75);
   border: none;
@@ -176,13 +174,31 @@ body {
   color: var(--color-red);
 }
 
+/* panel */
+
 .features__content {
-  display: flex;
+  padding-bottom: 90px;
+  background-image: url("../img/features-rect.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 580px) bottom;
+}
+
+.panel {
+  margin: 0;
+  padding: 0;
+}
+
+.panel__item {
+  display: none;
   justify-content: space-between;
   align-items: center;
 }
 
-.features__text-wrapper {
+.panel__item--active {
+  display: flex;
+}
+
+.panel__text-wrapper {
   max-width: 445px;
 }
 
@@ -316,7 +332,9 @@ body {
   transition: color 0.3s ease;
 }
 
-.accordion__item:not(.accordion__item--active) .accordion__top:hover .accordion__question {
+.accordion__item:not(.accordion__item--active)
+  .accordion__top:hover
+  .accordion__question {
   color: var(--color-red);
 }
 
@@ -465,7 +483,8 @@ body {
   letter-spacing: 0.25px;
 }
 
-.form__input-field:not(:placeholder-shown):not(:focus):invalid ~ .form__error-wrapper {
+.form__input-field:not(:placeholder-shown):not(:focus):invalid
+  ~ .form__error-wrapper {
   display: block;
 }
 

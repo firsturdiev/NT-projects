@@ -1,0 +1,106 @@
+<svg width="478" height="408" viewBox="0 0 478 408" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 3">
+<g id="Search">
+<rect id="Mask" width="350" height="346" rx="8" fill="#E8EAF6"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="350" height="346">
+<rect id="Mask_2" width="350" height="346" rx="8" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Group 28">
+<rect id="Rectangle" x="-3.53044" y="0.197266" width="547" height="59" fill="#242A45"/>
+<g id="Group 7">
+<circle id="Oval" opacity="0.244768" cx="38.4696" cy="30.1973" r="16" fill="white"/>
+<g id="Group 6">
+<rect id="Rectangle_2" opacity="0.75" x="69.4696" y="20.1973" width="120" height="6" rx="3" fill="white"/>
+<rect id="Rectangle Copy 6" opacity="0.25" x="69.4696" y="34.1973" width="64" height="6" rx="3" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 2">
+<g id="Rectangle_3" filter="url(#filter0_d)">
+<rect x="27" y="138" width="200" height="255" rx="8" fill="white"/>
+</g>
+<g id="Group">
+<rect id="Rectangle_4" opacity="0.5" x="95.6826" y="173" width="101.317" height="6" rx="3" fill="#242A45"/>
+<circle id="Oval_2" cx="66" cy="183" r="16" fill="#5267DF"/>
+<rect id="Rectangle Copy 6_2" opacity="0.25" x="95.6826" y="187" width="54.0359" height="6" rx="3" fill="#242A45"/>
+<g id="Group 29 Copy">
+<circle id="Oval_3" cx="66" cy="239" r="16" fill="#5267DF"/>
+<rect id="Rectangle_5" opacity="0.5" x="95.6826" y="229" width="101.317" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_3" opacity="0.25" x="95.6826" y="243" width="54.0359" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy 2">
+<circle id="Oval_4" cx="66" cy="295" r="16" fill="#5267DF"/>
+<rect id="Rectangle_6" opacity="0.5" x="95.6826" y="285" width="101.317" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_4" opacity="0.25" x="95.6826" y="299" width="54.0359" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy 3">
+<circle id="Oval_5" cx="66" cy="351" r="16" fill="#5267DF"/>
+<rect id="Rectangle_7" opacity="0.5" x="95.6826" y="341" width="101.317" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_5" opacity="0.25" x="95.6826" y="355" width="54.0359" height="6" rx="3" fill="#242A45"/>
+</g>
+</g>
+</g>
+<g id="Group 2 Copy" filter="url(#filter1_d)">
+<g id="Rectangle_8" filter="url(#filter2_d)">
+<rect x="251" y="138" width="200" height="255" rx="8" fill="white"/>
+</g>
+<g id="Group_2">
+<rect id="Rectangle_9" opacity="0.5" x="319.683" y="173" width="101.317" height="6" rx="3" fill="#242A45"/>
+<circle id="Oval_6" cx="290" cy="183" r="16" fill="#5267DF"/>
+<rect id="Rectangle Copy 6_6" opacity="0.25" x="319.683" y="187" width="54.0359" height="6" rx="3" fill="#242A45"/>
+<g id="Group 29 Copy_2">
+<circle id="Oval_7" cx="290" cy="239" r="16" fill="#FA5959"/>
+<rect id="Rectangle_10" opacity="0.5" x="319.683" y="229" width="101.317" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_7" opacity="0.25" x="319.683" y="243" width="54.0359" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy 2_2">
+<circle id="Oval_8" cx="290" cy="295" r="16" fill="#5267DF"/>
+<rect id="Rectangle_11" opacity="0.5" x="319.683" y="285" width="101.317" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_8" opacity="0.25" x="319.683" y="299" width="54.0359" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy 3_2">
+<circle id="Oval_9" cx="290" cy="351" r="16" fill="#5267DF"/>
+<rect id="Rectangle_12" opacity="0.5" x="319.683" y="341" width="101.317" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_9" opacity="0.25" x="319.683" y="355" width="54.0359" height="6" rx="3" fill="#242A45"/>
+</g>
+</g>
+</g>
+<rect id="Rectangle Copy" x="27" y="85" width="237" height="34" rx="8" fill="white"/>
+<g id="Group 3 Copy">
+<circle id="Oval_10" cx="372" cy="169" r="67" fill="#495DCF" fill-opacity="0.20012" stroke="#5267DF" stroke-width="20"/>
+<path id="Path 4" d="M419 217L468 266" stroke="#5267DF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="17" y="133" width="220" height="275" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.285333 0 0 0 0 0.363695 0 0 0 0 0.811481 0 0 0 0.0830693 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="241" y="133" width="220" height="275" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.285333 0 0 0 0 0.363695 0 0 0 0 0.811481 0 0 0 0.0830693 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_d" x="241" y="133" width="220" height="275" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.285333 0 0 0 0 0.363695 0 0 0 0 0.811481 0 0 0 0.0830693 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
