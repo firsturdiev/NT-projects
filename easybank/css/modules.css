@@ -1,0 +1,149 @@
+/* Bismillohir Rahmonir Rahiym */
+
+/* VARIABLES */
+
+:root {
+  --color-text-primary: #2d314d;
+  --color-text-secondary: #9597a5;
+  --color-primary: #30c88f;
+  --color-white: #fff;
+  --color-body: #f2f2f2;
+  --gradient-primary: linear-gradient(135deg, #33d35e, #2ab6d9);
+}
+
+/* DEFAULT STYLES */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-secondary);
+  background-color: var(--color-body);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* STICKY FOOTER */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
+
+.site-footer {
+  flex-shrink: 0;
+}
+
+/* COMPONENTS */
+
+.heading {
+  margin: 0;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.7px;
+  color: var(--color-text-primary);
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 35px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color-white);
+  background-image: var(--gradient-primary);
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.btn:hover {
+  opacity: 0.4;
+}
+
+/* SPECIAL CLASSES */
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* FONT-FACE */
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Medium.woff2") format("woff2"),
+    url("../fonts/PublicSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"),
+    url("../fonts/PublicSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Thin.woff2") format("woff2"),
+    url("../fonts/PublicSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
