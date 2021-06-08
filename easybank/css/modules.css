@@ -5,7 +5,7 @@
 :root {
   --color-text-primary: #2d314d;
   --color-text-secondary: #9597a5;
-  --color-primary: #30c88f;
+  --color-green: #30c88f;
   --color-white: #fff;
   --color-body: #fafafa;
   --gradient-primary: linear-gradient(135deg, #33d35e, #2ab6d9);
@@ -86,6 +86,7 @@ body {
   line-height: 28px;
   text-decoration: none;
   text-transform: capitalize;
+  white-space: nowrap;
   color: var(--color-white);
   background-image: var(--gradient-primary);
   border: none;
