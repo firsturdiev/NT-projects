@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lexend Deca", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cars-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.car {
+  width: 310px;
+  padding: 48px;
+  background-color: #222;
+}
+
+.car-sedan {
+  background-color: #e28625;
+}
+
+.car-suv {
+  background-color: #006971;
+}
+
+.car-luxury {
+  background-color: #004140;
+}
+
+.car-icon {
+  width: 64px;
+  height: 40px;
+  margin-bottom: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.car-icon-sedan {
+  background-image: url("../img/icon-sedan.svg");
+}
+
+.car-icon-suv {
+  background-image: url("../img/icon-suv.svg");
+}
+
+.car-icon-luxury {
+  background-image: url("../img/icon-luxury.svg");
+}
+
+.car-type {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: "Big Shoulders Display", "Arial", cursive;
+  font-size: 40px;
+  line-height: normal;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.car-info {
+  margin-top: 0;
+  margin-bottom: 83px;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 9px 29px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
+.button-sedan {
+  color: #e28625;
+}
+
+.button-suv {
+  color: #006971;
+}
+
+.button-luxury {
+  color: #004140;
+}

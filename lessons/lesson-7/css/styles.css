@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.demo {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border: 3px solid #000;
+  background-color: gold;
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.test-link {
+  display: inline-block;
+  padding: 30px;
+  margin: 40px;
+  background-color: gold;
+
+  padding-top: 30px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding: 30px 70px;
+
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding: 30px 80px 50px;
+}
+
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  background-color: rgb(163, 240, 163);
+}
+
+.article {
+  display: none;
+  width: 300px;
+  padding: 25px;
+  border: 10px solid black;
+  margin-right: 10px;
+  background-color: gold;
+}
+
+.article-third {
+  margin-right: 0;
+}
+
+.the-idish {
+  display: none;
+  background-color: gold;
+}
+
+.the-child {
+  padding: 30px;
+  margin-top: 50px;
+  background-color: orange;
+}
+
+.container {
+  max-width: 900px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* container eni(1280) = kontent uchun joy (1200) + ikki yondan padding(40*2) */
+
+.the-bulim {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: gold;
+}

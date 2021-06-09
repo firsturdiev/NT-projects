@@ -1,0 +1,19 @@
+body {
+  background: rgb(148, 131, 131);
+}
+.heading {
+  background: springgreen;
+}
+.link a {
+  font-size: x-large;
+  text-decoration: none;
+  background: cyan;
+  line-height: 70px;
+}
+.list {
+  color: #fff;
+  background: yellow;
+}
+.the-bozorlik {
+  list-style: none;
+}

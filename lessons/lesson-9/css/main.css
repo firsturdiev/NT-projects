@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.buttons-row {
+  padding: 30px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 5px;
+  background: #fff;
+  color: #fff;
+  line-height: 1.2;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: opacity 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: rgba(138, 43, 226, 0.8);
+}
+
+.btn-primary:hover {
+  background: rgba(138, 43, 226, 1);
+}
+
+.btn-primary:focus,
+.btn-outline-primary:focus {
+  outline: none;  
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.5);
+}
+
+.btn-secondary {
+  background: rgba(218, 165, 32, 0.8);
+}
+
+.btn-secondary:hover {
+  background: rgba(218, 165, 32, 1);
+}
+
+.btn-secondary:focus,
+.btn-outline-secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(218, 165, 32, 0.8);
+}
+
+.btn-success {
+  background: rgba(0, 255, 255, 0.8);
+}
+
+.btn-success:hover {
+  background: rgba(0, 255, 255, 1);
+}
+
+.btn-success:focus,
+.btn-outline-success:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 255, 255, .5);
+}
+
+/* outline */
+
+.btn-outline:hover {
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border-color: rgba(138, 43, 226, 1);
+  color: rgba(138, 43, 226, 1);
+}
+
+.btn-outline-primary:hover {
+  background: rgba(138, 43, 226, 1);
+}
+
+.btn-outline-secondary {
+  border-color: rgba(218, 165, 32, 1);
+  color: rgba(218, 165, 32, 1);
+}
+
+.btn-outline-secondary:hover {
+  background: rgba(218, 165, 32, 1);
+}
+
+.btn-outline-success {
+  border-color: aqua;
+  color: rgba(0, 255, 255, 1);
+}
+
+.btn-outline-success:hover {
+  background: rgba(0, 255, 255, 1);
+}

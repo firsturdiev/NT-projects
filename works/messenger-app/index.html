@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messenger App Design</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <main class="app">
+    <div class="container">
+      <section class="app-chat">
+        <div class="chat-profile">
+          <span class="chat-profile-indicator"></span>
+          <p class="chat-profile-name">mark zuckerberg</p>
+          <img class="chat-profile-avatar" src="img/close.svg" alt="Close icon" />
+        </div>
+
+        <div class="chat">
+          <div class="chat-day">
+            <span class="chat-day-line"></span>
+            <time datetime="2020-05-06">today</time>
+            <span class="chat-day-line"></span>
+          </div>
+
+          <div class="chat-messages">
+            <div class="chat-message chat-message-me">
+              <time class="chat-message-date">10:53</time>
+              <p class="chat-message-text">Hi, Mark! I made new design for Messenger App</p>
+            </div>
+
+            <div class="chat-message chat-message-you">
+              <time class="chat-message-date">10:57</time>
+              <p class="chat-message-text">Yo! Send it to my assistant and we'll review it during the year</p>
+            </div>
+
+            <div class="chat-message chat-message-me">
+              <time class="chat-message-date">10:57</time>
+              <p class="chat-message-text">But Mark...</p>
+            </div>
+
+            <div class="chat-message chat-message-it">
+              <time class="chat-message-date">10:57</time>
+              <p class="chat-message-text">You were blocked by user.</p>
+            </div>      
+          </div>
+        </div>
+
+        <div class="chat-input">
+          <div class="chat-text">Enter your message</div>
+          <button class="chat-btn">Send</button>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>

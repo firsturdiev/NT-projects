@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Regular.woff") format("woff2"),
+  url("../fonts/Karla-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Bold.woff2") format("woff2"),
+    url("../fonts/Karla-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/DMSerifDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2c2830;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border: 2px solid #2c2830;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #2c2830;
+  color: #fff;
+}
+
+.btn-white {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-white:hover {
+  background: #fff;
+  color: #2c2830;
+}
+
+.heading-primary {
+  font-family: "DM Serif Display", "Times New Roman", serif;
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.heading-secondary {
+  font-family: "DM Serif Display", "Times New Roman", serif;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.4px;
+}
+
+.paragraph {
+  color: #837d88;
+  font-size: 16px;
+  line-height: 26px;
+}
