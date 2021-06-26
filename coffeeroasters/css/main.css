@@ -107,6 +107,7 @@ body {
   font-weight: 900;
   font-size: 148px;
   line-height: 72px;
+  white-space: nowrap;
   color: rgba(131, 136, 143, 0.2);
 }
 
