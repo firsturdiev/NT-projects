@@ -19,14 +19,20 @@ body {
 
 .site-header {
   padding: 50px 0;
+  position: relative;
 }
 
 .site-header-inner {
   display: flex;
+  align-items: center;
 }
 
 .logo {
   margin-right: auto;
+}
+
+.logo img {
+  display: block;
 }
 
 .site-nav-list {
@@ -55,12 +61,23 @@ body {
   color: #333d4b;
 }
 
+.menu {
+  display: none;
+  width: 16px;
+  height: 15px;
+  background: url("../images/icon-menu.svg") no-repeat center / contain;
+  border: none;
+}
+
 /* hero */
 
 .hero {
   padding: 116px 86px;
   height: 600px;
-  background-image: url(../images/hero.jpg);
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .hero-heading {
@@ -88,9 +105,9 @@ body {
   font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
-  font-size: 150px;
+  font-size: 148px;
   line-height: 72px;
-  color: rgba(131, 136, 143, 0.1);
+  color: rgba(131, 136, 143, 0.5);
 }
 
 .collection-heading {
@@ -121,6 +138,8 @@ body {
   color: rgb(254, 252, 247);
   border-radius: 10px;
   text-align: center;
+  position: relative;
+  padding-bottom: 318px;
 }
 
 .features-heading {
@@ -131,16 +150,18 @@ body {
 
 .features-paragraph {
   margin: 0 auto;
-  margin-bottom: 86px;
   width: 540px;
   color: rgba(254, 252, 247, 0.8);
 }
 
 .features-list {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 85px;
   display: flex;
   list-style: none;
+  position: absolute;
+  left: 0;
+  top: 300px;
 }
 
 .features-card {
@@ -185,6 +206,7 @@ body {
 .stages {
   margin-bottom: 100px;
   padding: 100px 85px;
+  margin-top: 251px;
 }
 
 .stages-heading {
@@ -260,7 +282,7 @@ body {
   background-color: #2c343e;
 }
 
-.site-footer .logo {
+.footer__logo {
   margin-right: 103px;
 }
 
@@ -288,7 +310,7 @@ body {
 }
 
 .footer-nav-link:hover {
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 
 .social {
@@ -322,4 +344,191 @@ body {
 
 .social-icon-instagram {
   background-image: url("../images/icon-instagram.svg");
+}
+
+/* @MEDIA */
+
+@media screen and (max-width: 375px) {
+  /* SITE-HEADER */
+  .logo img {
+    width: 163px;
+    height: 18px;
+  }
+
+  .site-nav {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 580px;
+    padding-top: 40px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(254, 252, 247, 0.5),
+      #fefcf7 56%
+    );
+    transform: translateY(-120%);
+    transition: transform 0.5s ease;
+  }
+
+  .site-nav--active {
+    transform: translateY(0);
+  }
+
+  .site-nav--active ~ .menu {
+    background-image: url("../images/icon-close.svg");
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .site-nav-list {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .site-nav-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .site-nav-link {
+    text-transform: capitalize;
+    font-family: "Fraunces 9pt", serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333d4b;
+  }
+
+  /* HERO */
+
+  .hero {
+    padding: 100px 25px;
+    text-align: center;
+    background-image: url("../images/hero-mobile.jpg");
+  }
+
+  .hero-heading {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .hero-paragraph {
+    width: 100%;
+  }
+
+  /* COLLECTIONS */
+
+  .collection {
+    padding: 20px 22px 120px;
+  }
+
+  .collection-bg-text {
+    margin-bottom: 13px;
+    font-size: 39px;
+  }
+
+  .collection-list {
+    flex-direction: column;
+  }
+
+  .collection-item {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+
+  /* FEATURES */
+
+  .features {
+    margin-bottom: 717px;
+    padding: 64px 24px 660px;
+  }
+
+  .features-heading {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .features-paragraph {
+    width: auto;
+  }
+
+  .features-list {
+    padding: 0 24px;
+    flex-direction: column;
+  }
+
+  .features-card {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  /* STAGES */
+
+  .stages {
+    margin: 0;
+    padding: 50px 0 120px;
+    text-align: center;
+  }
+
+  .stages-heading {
+    margin-bottom: 80px;
+  }
+
+  .stages-list {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .stages-item {
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .stages-item:not(:last-child) {
+    margin-bottom: 56px;
+  }
+
+  .stages-item::before {
+    display: none;
+  }
+
+  .stages-item-inner {
+    padding-top: 0;
+    width: auto;
+  }
+
+  /* SITE-FOOTER */
+
+  .site-footer {
+    padding-bottom: 72px;
+    text-align: center;
+  }
+
+  .site-footer-inner {
+    padding: 55px;
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+    margin-bottom: 48px;
+    flex-direction: column;
+  }
+
+  .footer-nav-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
 }

@@ -32,6 +32,7 @@ ul li:last-child {
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 25px;
 }
 
 .heading-primary {
@@ -66,11 +67,11 @@ ul li:last-child {
   font-size: 18px;
   line-height: 25px;
   color: #fefcf7;
-  transition: background-color .5s ease;
+  transition: background-color 0.5s ease;
 }
 
 .btn:hover {
-  background-color: #66D2CF;
+  background-color: #66d2cf;
 }
 
 .btn {
@@ -80,4 +81,11 @@ ul li:last-child {
   border-radius: 6px;
   text-decoration: none;
   color: #fefcf7;
+}
+
+@media screen and (max-width: 375px) {
+  .paragraph {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }

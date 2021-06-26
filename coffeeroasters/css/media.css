@@ -1,0 +1,38 @@
+@media screen and (max-width: 375px) {
+  .logo img {
+    width: 163px;
+    height: 18px;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 577px;
+    padding-top: 40px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(254, 252, 247, 0.5),
+      #fefcf7 56%
+    );
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .site-nav-list {
+    flex-direction: column;
+  }
+
+  .site-nav-link {
+    text-transform: capitalize;
+    font-family: 'Fraunces 9pt', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333d4b;
+  }
+}
