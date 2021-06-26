@@ -364,7 +364,7 @@ body {
     height: 580px;
     padding-top: 40px;
     background-image: linear-gradient(
-      to bottom,
+      to top,
       rgba(254, 252, 247, 0.5),
       #fefcf7 56%
     );
@@ -407,6 +407,7 @@ body {
   /* HERO */
 
   .hero {
+    height: auto;
     padding: 100px 25px;
     text-align: center;
     background-image: url("../images/hero-mobile.jpg");
@@ -414,18 +415,20 @@ body {
 
   .hero-heading {
     width: 100%;
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 40px;
   }
 
   .hero-paragraph {
     width: 100%;
+    margin-bottom: 40px;
   }
 
   /* COLLECTIONS */
 
   .collection {
-    padding: 20px 22px 120px;
+    padding: 120px 22px;
   }
 
   .collection-bg-text {
