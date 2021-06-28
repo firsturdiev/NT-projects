@@ -1,6 +1,12 @@
 /* TABLET */
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 767px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 580px) {
   .container {
     padding: 0 10px;
   }
@@ -104,12 +110,6 @@
     height: 193px;
     margin-right: 36px;
     margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .container {
-    padding: 0 40px;
   }
 }
 

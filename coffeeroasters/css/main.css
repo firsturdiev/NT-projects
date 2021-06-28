@@ -111,6 +111,17 @@
   line-height: 72px;
   text-align: center;
   color: #83888f;
+  opacity: 0.5;
+}
+
+.products__heading::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 150%;
+  background: linear-gradient(to bottom, transparent, #fefcf7);
 }
 
 .products__list {
