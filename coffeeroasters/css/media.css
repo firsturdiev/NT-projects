@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 481px) {
   .container {
-    padding: 0 40px;
+    padding: 0 10px;
   }
 
   .heading--primary {
@@ -104,6 +104,12 @@
     height: 193px;
     margin-right: 36px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    padding: 0 40px;
   }
 }
 
