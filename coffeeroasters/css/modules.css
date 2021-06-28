@@ -89,3 +89,11 @@ ul li:last-child {
     line-height: 25px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .paragraph {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
