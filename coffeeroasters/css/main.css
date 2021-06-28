@@ -450,7 +450,7 @@ body {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   /* SITE-HEADER */
   .logo img {
     width: 163px;
