@@ -71,7 +71,7 @@
 /* HERO */
 
 .hero {
-  margin-bottom: 120px;
+  margin-bottom: 205px;
   padding: 100px 24px;
   background: url("../images/bg-hero-mobile.jpg") no-repeat center / cover;
   border-radius: 10px;
@@ -89,4 +89,51 @@
   margin-top: 0;
   margin-bottom: 40px;
   color: rgba(254, 252, 247, 0.8);
+}
+
+/* PRODUCTS */
+
+.products {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.products__heading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transform: translateY(calc(-100% - 13px));
+  width: 100%;
+  font-size: 40px;
+  line-height: 72px;
+  text-align: center;
+  color: #83888f;
+}
+
+.products__list {
+  margin: 0;
+  padding: 0 22px;
+  list-style: none;
+}
+
+.products__item:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.product__photo {
+  display: inline-block;
+  margin-bottom: 24px;
+  object-fit: cover;
+}
+
+.product__heading {
+  margin-bottom: 16px;
+  color: inherit;
+}
+
+.product__info {
+  margin: 0;
 }

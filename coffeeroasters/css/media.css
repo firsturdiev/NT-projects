@@ -61,7 +61,7 @@
 
   .hero {
     margin-bottom: 144px;
-    padding: 104px 58px;
+    padding: 104px 56px;
     background-image: url("../images/bg-hero-tablet.jpg");
   }
 
@@ -72,6 +72,38 @@
 
   .hero__heading {
     max-width: 329px;
+  }
+
+  /* PRODUCTS */
+
+  .products {
+    margin-bottom: 144px;
+    text-align: left;
+  }
+
+  .products__heading {
+    transform: translateY(-38px);
+    font-size: 96px;
+  }
+
+  .products__list {
+    padding: 0 58px;
+  }
+
+  .products__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .product {
+    display: flex;
+    align-items: center;
+  }
+
+  .product__photo {
+    width: 255px;
+    height: 193px;
+    margin-right: 36px;
+    margin-bottom: 0;
   }
 }
 
@@ -127,5 +159,39 @@
   .hero__paragraph {
     margin-bottom: 56px;
     max-width: 445px;
+  }
+
+  /* PRODUCTS */
+
+  .products {
+    margin-bottom: 201px;
+    text-align: center;
+  }
+
+  .products__heading {
+    transform: translateY(-40px);
+    font-size: 150px;
+  }
+
+  .products__list {
+    display: flex;
+    padding: 0 85px;
+  }
+
+  .products__item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+
+  .product {
+    flex-direction: column;
+    width: 255px;
+  }
+
+  .product__photo {
+    width: 235px;
+    height: 178px;
+    margin-right: 0;
+    margin-bottom: 72px;
   }
 }
