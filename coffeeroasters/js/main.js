@@ -1,6 +1,6 @@
 const elMenuToggle = document.querySelector(".menu");
-const elMenu = document.querySelector(".site-nav");
+const elMenu = document.querySelector(".sitenav");
 
 elMenuToggle.addEventListener("click", function () {
-  elMenu.classList.toggle("site-nav--active");
+  elMenu.classList.toggle("sitenav--open");
 });

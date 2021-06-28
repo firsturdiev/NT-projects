@@ -6,244 +6,121 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cofferoasters Landing Page</title>
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+  <!-- SITE-HEADER -->
+
   <header class="site-header">
     <div class="container">
-      <div class="site-header-inner">
-        <a class="logo" href="./">
-          <img src="./images/logo.svg" alt="Cofferoasters logo" />
+      <div class="site-header__inner">
+        <a class="site-header__logo logo" href="./">
+          <img class="logo__img" src="./images/logo.svg" width="163" height="18" alt="Cofferoasters logo" />
         </a>
 
-        <nav class="site-nav">
-          <ul class="site-nav-list">
-            <li class="site-nav-item">
-              <a class="site-nav-link" href="#">Home</a>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./">Home</a>
             </li>
-            <li class="site-nav-item">
-              <a class="site-nav-link" href="#">About us</a>
+
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">About us</a>
             </li>
-            <li class="site-nav-item">
-              <a class="site-nav-link" href="#">Create your plan</a>
+
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Create your plan</a>
             </li>
           </ul>
         </nav>
 
-        <button class="menu" type="button"></button>
+        <button class="menu" type="button" aria-label="Menu toggle"></button>
       </div>
     </div>
   </header>
 
-  <main class="site-main">
+
+  <!-- SITE-CONTENT -->
+
+  <main class="site-content">
     <div class="container">
+      <!-- HERO -->
+
       <section class="hero">
-        <h1 class="heading-primary hero-heading">
-          Great coffee made simple.
-        </h1>
-        <p class="paragraph hero-paragraph">
-          Start your mornings with the world’s best coffees. Try our expertly
-          curated artisan coffees from our best roasters delivered directly to
-          your door, at your schedule.
-        </p>
-        <a class="btn" href="#">Create your plan</a>
+        <div class="hero__text">
+          <h1 class="hero__heading heading heading--primary">Great coffee made simple.</h1>
+          <p class="hero__paragraph">Start your mornings with the world’s best coffees. Try our expertly
+            curated artisan coffees from our best roasters delivered directly to
+            your door, at your schedule.</p>
+          <a class="btn" href="#">Create your plan</a>
+        </div>
       </section>
 
 
-      <section class="collection">
-        <h2 class="collection-bg-text">our collection</h2>
+      <!-- PRODUCTS -->
 
-        <ul class="collection-list">
-          <li class="collection-item">
-            <img class="collection-img" src="./images/product-planalto.png" width="256" height="193"
+      <section class="products">
+        <h2 class="products__heading heading">our products</h2>
+
+        <ul class="products__list">
+          <li class="products__item">
+            <img class="products__photo" src="./images/product-planalto.png" width="200" height="151"
               alt="Planalto image">
-            <div class="collection-text">
-              <h3 class="heading-secondary collection-heading">
+            <div class="products__text">
+              <h3 class="products__heading heading heading--tertiary">
                 Planalto
               </h3>
-              <p class="paragraph collection-paragraph">
+              <p class="products__info">
                 Light and flavorful blend with cocoa and black pepper for an
                 intense experience.
               </p>
             </div>
           </li>
 
-          <li class="collection-item">
-            <img class="collection-img" src="./images/product-gran-espresso.png" width="256" height="193"
+          <li class="products__item">
+            <img class="products__photo" src="./images/product-gran-espresso.png" width="200" height="151"
               alt="Gran Espresso image">
-            <div class="collection-text">
-              <h3 class="heading-secondary collection-heading">
+            <div class="products__text">
+              <h3 class="products__heading heading heading--tertiary">
                 Gran Espresso
               </h3>
-              <p class="paragraph collection-paragraph">
+              <p class="products__info">
                 Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
               </p>
             </div>
           </li>
 
-          <li class="collection-item">
-            <img class="collection-img" src="./images/product-piccollo.png" width="256" height="193"
+          <li class="products__item">
+            <img class="products__photo" src="./images/product-piccollo.png" width="200" height="151"
               alt="Piccollo image">
-            <div class="collection-text">
-              <h3 class="heading-secondary collection-heading">
+            <div class="products__text">
+              <h3 class="products__heading heading heading--tertiary">
                 Piccollo
               </h3>
-              <p class="paragraph collection-paragraph">
+              <p class="products__info">
                 Mild and smooth blend featuring notes of toasted almond and dried cherry.
               </p>
             </div>
           </li>
 
-          <li class="collection-item">
-            <img class="collection-img" src="./images/product-danche.png" width="256" height="193" alt="Danche image">
-            <div class="collection-text">
-              <h3 class="heading-secondary collection-heading">
+          <li class="products__item">
+            <img class="products__photo" src="./images/product-danche.png" width="200" height="151" alt="Danche image">
+            <div class="products__text">
+              <h3 class="products__heading heading heading--tertiary">
                 Danche
               </h3>
-              <p class="paragraph collection-paragraph">
+              <p class="products__info">
                 Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
               </p>
             </div>
           </li>
         </ul>
       </section>
-
-
-      <section class="features">
-        <h2 class="heading-primary features-heading">Why choose us?</h2>
-        <p class="paragraph features-paragraph">
-          A large part of our role is choosing which particular coffees will
-          be featured in our range. This means working closely with the best
-          coffee growers to give you a more impactful experience on every
-          level.
-        </p>
-
-        <ul class="features-list">
-          <li class="features-card features-card-coffee-bean">
-            <div class="features-card-text">
-              <h3 class="heading-secondary features-card-heading">
-                Best quality
-              </h3>
-              <p class="paragraph">
-                Discover an endless variety of the world’s best artisan coffee
-                from each of our roasters.
-              </p>
-            </div>
-          </li>
-
-          <li class="features-card features-card-gift">
-            <div class="features-card-text">
-              <h3 class="heading-secondary features-card-heading">
-                Exclusive benefits
-              </h3>
-              <p class="paragraph">
-                Special offers and swag when you subscribe, including 30% off your first shipment.
-              </p>
-            </div>
-          </li>
-
-          <li class="features-card features-card-truck">
-            <div class="features-card-text">
-              <h3 class="heading-secondary features-card-heading">
-                Free shipping
-              </h3>
-              <p class="paragraph">
-                We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-
-      <section class="stages">
-        <h2 class="heading-secondary stages-heading">How it works</h2>
-
-        <ol class="stages-list">
-          <li class="stages-item">
-            <div class="stages-item-inner">
-              <span class="stages-number">01</span>
-              <h3 class="heading-secondary stages-item-heading">Pick your <br> coffee</h3>
-              <p class="paragraph stages-paragraph">
-                Select from our evolving range of artisan coffees. Our beans are
-                ethically sourced and we pay fair prices for them. There are new
-                coffees in all profiles every month for you to try out.
-              </p>
-            </div>
-          </li>
-
-          <li class="stages-item">
-            <div class="stages-item-inner">
-              <span class="stages-number">02</span>
-              <h3 class="heading-secondary stages-item-heading">
-                Choose the frequency
-              </h3>
-              <p class="paragraph stages-paragraph">
-                Customize your order frequency, quantity, even your roast style
-                and grind type. Pause, skip or cancel your subscription with no
-                commitment through our online portal.
-              </p>
-            </div>
-          </li>
-
-          <li class="stages-item">
-            <div class="stages-item-inner">
-              <span class="stages-number">03</span>
-              <h3 class="heading-secondary stages-item-heading">
-                Receive and enjoy!
-              </h3>
-              <p class="paragraph stages-paragraph">
-                We ship your package within 48 hours, freshly roasted. Sit back
-                and enjoy award-winning world-class coffees curated to provide a
-                distinct tasting experience.
-              </p>
-            </div>
-          </li>
-        </ol>
-
-        <a class="btn" href="#">Create your plan</a>
-      </section>
     </div>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="site-footer-inner">
-        <a class="logo footer__logo" href="./">
-          <img src="./images/logo-light.svg" alt="Cofferoasters logo" />
-        </a>
-
-        <ul class="footer-nav">
-          <li class="footer-nav-item">
-            <a class="footer-nav-link" href="#">Home</a>
-          </li>
-
-          <li class="footer-nav-item">
-            <a class="footer-nav-link" href="#">About us</a>
-          </li>
-
-          <li class="footer-nav-item">
-            <a class="footer-nav-link" href="#">Create your plan</a>
-          </li>
-        </ul>
-
-        <ul class="social">
-          <li class="social-item">
-            <a class="social-icon social-icon-facebook" href="#" target="_blank"></a>
-          </li>
-
-          <li class="social-item">
-            <a class="social-icon social-icon-twitter" href="#" target="_blank"></a>
-          </li>
-
-          <li class="social-item">
-            <a class="social-icon social-icon-instagram" href="#" target="_blank"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 
   <script src="js/main.js"></script>
 </body>

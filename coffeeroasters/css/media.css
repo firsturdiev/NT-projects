@@ -1,38 +1,131 @@
-@media screen and (max-width: 375px) {
-  .logo img {
-    width: 163px;
-    height: 18px;
+/* TABLET */
+
+@media screen and (min-width: 481px) {
+  .container {
+    padding: 0 40px;
   }
 
-  .site-nav {
-    position: absolute;
-    top: 90px;
-    left: 0;
-    width: 100%;
-    height: 577px;
+  .heading--primary {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  /* SITE-HEADER */
+
+  .site-header {
     padding-top: 40px;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(254, 252, 247, 0.5),
-      #fefcf7 56%
-    );
+    padding-bottom: 53px;
+  }
+
+  .logo__img {
+    width: 236px;
+    height: 26px;
+  }
+
+  .sitenav {
+    position: initial;
+    width: auto;
+    height: auto;
+    transform: initial;
+    text-align: left;
+    background: transparent;
+    transition: initial;
+  }
+
+  .sitenav__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 32px;
+  }
+
+  .sitenav__link {
+    display: block;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #83888f;
   }
 
   .menu {
-    display: block;
+    display: none;
   }
 
-  .site-nav-list {
-    flex-direction: column;
+  /* HERO */
+
+  .hero {
+    margin-bottom: 144px;
+    padding: 104px 58px;
+    background-image: url("../images/bg-hero-tablet.jpg");
   }
 
-  .site-nav-link {
-    text-transform: capitalize;
-    font-family: 'Fraunces 9pt', serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 32px;
-    color: #333d4b;
+  .hero__text {
+    max-width: 398px;
+    text-align: left;
+  }
+
+  .hero__heading {
+    max-width: 329px;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .container {
+    padding: 0 80px;
+  }
+
+  .heading--primary {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  /* SITE-HEADER */
+
+  .site-header {
+    padding-top: 43px;
+    padding-bottom: 43px;
+  }
+
+  .sitenav__link {
+    transition: color 0.3s ease;
+  }
+
+  .sitenav__link:hover {
+    color: var(--color-text-secondary);
+  }
+
+  /* HERO */
+
+  .hero {
+    margin-bottom: 136px;
+    padding: 115px 85px;
+    background-image: url("../images/bg-hero.jpg");
+  }
+
+  .hero__text {
+    max-width: 493px;
+  }
+
+  .hero__heading {
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+
+  .hero__paragraph {
+    margin-bottom: 56px;
+    max-width: 445px;
   }
 }
