@@ -115,7 +115,7 @@
 }
 
 .products__heading::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -146,5 +146,128 @@
 }
 
 .product__info {
+  margin: 0;
+}
+
+/* FEATURES */
+
+.features {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 717px;
+  padding: 64px 24px 660px;
+  text-align: center;
+  color: var(--color-text-primary);
+  background-color: #2c343e;
+  border-radius: 10px;
+}
+
+.features__heading {
+  margin-bottom: 24px;
+}
+
+.features__paragraph {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.features__list {
+  position: absolute;
+  top: 305px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  list-style: none;
+}
+
+.features__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.feature {
+  padding: 72px 33.5px 48px;
+  background-color: #0e8784;
+  border-radius: 8px;
+}
+
+.feature::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  display: inline-block;
+  margin-bottom: 56px;
+  background: no-repeat center bottom / contain;
+}
+
+.feature--benefits::before {
+  background-image: url("../images/icon-coffee-bean.svg");
+}
+
+.feature--quality::before {
+  background-image: url("../images/icon-gift.svg");
+}
+
+.feature--shipping::before {
+  background-image: url("../images/icon-truck.svg");
+}
+
+.feature__heading {
+  margin-bottom: 24px;
+}
+
+.feature__info {
+  margin: 0;
+}
+
+/* STEPS */
+
+.steps {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.steps__heading {
+  margin-bottom: 80px;
+  color: #83888f;
+}
+
+.steps__list {
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.steps__item {
+  counter-increment: step;
+}
+
+.steps__item:not(:last-child) {
+  margin-bottom: 56px;
+}
+
+.step::before {
+  content: "0" counter(step);
+  display: inline-block;
+  margin-bottom: 24px;
+  font-family: 'Fraunces 9pt', 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.step__heading {
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 32px;
+  color: var(--color-text-secondary);
+}
+
+.step__info {
   margin: 0;
 }

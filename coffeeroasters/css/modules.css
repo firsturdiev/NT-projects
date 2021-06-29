@@ -20,6 +20,11 @@
   line-height: 40px;
 }
 
+.heading--secondary {
+  font-size: 28px;
+  line-height: 28px;
+}
+
 .heading--tertiary {
   font-size: 24px;
   line-height: 32px;
