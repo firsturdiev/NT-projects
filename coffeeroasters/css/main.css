@@ -379,7 +379,7 @@
 }
 
 .commitment__img {
-  display: block;
+  display: inline-block;
   border-radius: 10px;
   object-fit: cover;
 }
