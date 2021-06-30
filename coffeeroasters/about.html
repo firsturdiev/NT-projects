@@ -28,7 +28,7 @@
             </li>
 
             <li class="sitenav__item">
-              <a class="sitenav__link" href="#">About us</a>
+              <a class="sitenav__link" href="./about.html">About us</a>
             </li>
 
             <li class="sitenav__item">
@@ -97,12 +97,18 @@
 
       <section class="quality">
         <picture class="quality__img-wrapper">
+          <source srcset="./images/bg-quality-desktop.webp 1x, ./images/bg-quality-desktop@2x.webp 2x"
+            media="(min-width: 1150px)" type="image/webp">
           <source srcset="./images/bg-quality-desktop.jpg 1x, ./images/bg-quality-desktop@2x.jpg 2x"
             media="(min-width: 1150px)" type="image/jpeg">
+          <source srcset="./images/bg-quality-tablet.webp 1x, ./images/bg-quality-tablet@2x.webp 2x"
+            media="(min-width: 580px)" type="image/webp">
           <source srcset="./images/bg-quality-tablet.jpg 1x, ./images/bg-quality-tablet@2x.jpg 2x"
             media="(min-width: 580px)" type="image/jpeg">
+          <source srcset="./images/bg-quality.webp 1x, ./images/bg-quality@2x.webp 2x" type="image/webp">
+
           <img class="quality__img" src="./images/bg-quality.jpg" width="279" height="156"
-            srcset="./images/bg-quality@2x.jpg 2x" alt="Coffee">
+            srcset="./images/bg-quality.jpg 1x, ./images/bg-quality@2x.jpg 2x" alt="Coffee">
         </picture>
 
         <div class="quality__text">
@@ -172,7 +178,7 @@
             </li>
 
             <li class="footer-nav__item">
-              <a class="footer-nav__link" href="#">About us</a>
+              <a class="footer-nav__link" href="./about.html">About us</a>
             </li>
 
             <li class="footer-nav__item">
