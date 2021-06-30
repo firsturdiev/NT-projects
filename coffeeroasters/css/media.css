@@ -224,6 +224,91 @@
     margin-bottom: 0;
     margin-right: 32px;
   }
+
+  /* about.html */
+
+  /* ABOUT-HERO */
+
+  .about-hero {
+    margin-bottom: 144px;
+    padding: 118px 58px;
+    text-align: left;
+    background-image: url("../images/bg-hero-about-tablet.jpg");
+  }
+
+  .about-hero__text {
+    max-width: 400px;
+  }
+
+  /* COMMITMENT */
+
+  .commitment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 304px;
+    text-align: left;
+  }
+
+  .commitment__img-wrapper {
+    flex-shrink: 0;
+    margin-bottom: 0;
+    margin-right: 70px;
+  }
+
+  .commitment__img {
+    width: 281px;
+    height: 470px;
+  }
+
+  /* QUALITY */
+
+  .quality {
+    margin-bottom: 144px;
+    padding: 224px 74px 67px;
+  }
+
+  .quality__img {
+    width: 573px;
+    height: 320px;
+  }
+
+  /* HEADQUARTERS */
+
+  .headquarters {
+    margin-bottom: 144px;
+    text-align: left;
+  }
+
+  .headquarters__list {
+    display: flex;
+  }
+
+  .headquarters__item {
+    flex-grow: 1;
+  }
+
+  .headquarters__item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  .headquarter__heading {
+    font-size: 24px;
+  }
+
+  /* RETINA IMAGES */
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .about-hero {
+      background-image: url("../images/bg-hero-about-tablet@2x.jpg");
+    }
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -433,6 +518,111 @@
   .footer-nav {
     margin-bottom: 0;
     margin-right: auto;
+  }
+
+  /* about.html */
+
+  /* ABOUT-HERO */
+
+  .about-hero {
+    margin-bottom: 168px;
+    padding: 137px 85px;
+    background-image: url("../images/bg-hero-about-desktop.jpg");
+  }
+
+  .about-hero__text {
+    max-width: 445px;
+  }
+
+  /* COMMITMENT */
+
+  .commitment {
+    margin-bottom: 256px;
+    padding: 0 85px;
+    align-items: center;
+  }
+
+  .commitment__img-wrapper {
+    margin-right: 125px;
+  }
+
+  .commitment__img {
+    width: 445px;
+    height: 520px;
+  }
+
+  .commitment__heading {
+    margin-bottom: 32px;
+    font-size: 40px;
+  }
+
+  /* QUALITY */
+
+  .quality {
+    margin-bottom: 168px;
+    padding: 0 85px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .quality__img-wrapper {
+    position: relative;
+    top: -88px;
+    left: initial;
+    width: auto;
+    flex-shrink: 0.3;
+    transform: initial;
+  }
+
+  .quality__img {
+    width: 445px;
+    height: 474px;
+  }
+
+  .quality__text {
+    max-width: 540px;
+    margin-right: 50px;
+    flex-shrink: 0.7;
+  }
+
+  .quality__heading {
+    margin-bottom: 32px;
+  }
+
+  /* HEADQUARTERS */
+
+  .headquarters {
+    margin-bottom: 168px;
+  }
+
+  .headquarters__list {
+    padding: 0 85px;
+  }
+
+  .headquarter::before {
+    margin-bottom: 45px;
+  }
+
+  .headquarter__heading {
+    margin-bottom: 24px;
+    font-size: 32px;
+  }
+
+  /* RETINA IMAGES */
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .about-hero {
+      background-image: url("../images/bg-hero-about-desktop@2x.jpg");
+    }
   }
 }
 

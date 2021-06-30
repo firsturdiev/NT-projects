@@ -336,9 +336,166 @@
   display: flex;
   text-decoration: none;
   color: #fefcf7;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
 }
 
 .social__link:hover {
   color: #fdd6ba;
+}
+
+/* about.html */
+
+/* ABOUT-HERO */
+
+.about-hero {
+  margin-bottom: 120px;
+  padding: 0 24px;
+  padding-top: 110px;
+  padding-bottom: 85px;
+  text-align: center;
+  color: #fefcf7;
+  background: url("../images/bg-about-hero.jpg") no-repeat center / cover;
+  border-radius: 10px;
+}
+
+.about-hero__heading {
+  margin-bottom: 24px;
+}
+
+.about-hero__paragraph {
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* COMMITMENT */
+
+.commitment {
+  margin-bottom: 198px;
+  text-align: center;
+}
+
+.commitment__img-wrapper {
+  margin-bottom: 48px;
+}
+
+.commitment__img {
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.commitment__heading {
+  margin-bottom: 30px;
+  font-size: 32px;
+  line-height: 48px;
+  color: #333d4b;
+}
+
+.commitment__paragraph {
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* QUALITY */
+
+.quality {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 120px;
+  padding: 0 24px;
+  padding-top: 142px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #2c343e;
+  border-radius: 10px;
+}
+
+.quality__img-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.quality__img {
+  display: inline-block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.quality__heading {
+  margin-bottom: 24px;
+}
+
+.quality__paragraph {
+  margin: 0;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+
+/* HEADQUARTERS */
+
+.headquarters {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.headquarters__heading {
+  margin-bottom: 72px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.headquarters__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.headquarters__item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.headquarter::before {
+  content: "";
+  display: inline-block;
+  margin-bottom: 48px;
+  width: 52px;
+  height: 50px;
+  background: url() no-repeat center top / contain;
+}
+
+.headquarter--uk::before {
+  background-image: url("../images/icon-uk.svg");
+}
+
+.headquarter--canada::before {
+  background-image: url("../images/icon-canada.svg");
+}
+
+.headquarter--australia::before {
+  background-image: url("../images/icon-australia.svg");
+}
+
+.headquarter__heading {
+  margin-bottom: 22px;
+  font-size: 28px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+/* RETINA IMAGES */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-moz-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .about-hero {
+    background-image: url("../images/bg-about-hero@2x.jpg");
+  }
 }
