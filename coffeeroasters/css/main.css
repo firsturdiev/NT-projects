@@ -562,6 +562,11 @@
   background-image: url("../images/icon-arrow-top.svg");
 }
 
+.option--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .option__top {
   position: relative;
   z-index: 1;
