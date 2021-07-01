@@ -381,6 +381,89 @@
     padding: 27px 44px;
   }
 
+  /* SUBSCRIBE-MODAL */
+
+  .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal--open {
+    display: block;
+  }
+
+  .modal__inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    width: 540px;
+    background-color: #fefcf7;
+    border-radius: 8px;
+  }
+
+  .modal__header {
+    padding: 0 56px;
+    padding-top: 48px;
+    padding-bottom: 40px;
+    background-color: #333d4b;
+  }
+
+  .modal__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .modal__content {
+    padding: 56px;
+  }
+
+  .modal__text {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: "Fraunces 9pt", "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #83888f;
+  }
+
+  .modal__text strong {
+    color: #0e8784;
+  }
+
+  .modal__tip {
+    margin: 0;
+    margin-bottom: 47px;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+  }
+
+  .modal__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .modal__price {
+    margin-right: 13px;
+    font-family: 'Fraunces 9pt', 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .modal__btn {
+    padding: 15px 64px;
+  }
+
   /* RETINA IMAGES */
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -850,5 +933,9 @@
   .option__label {
     padding-left: 28px;
     padding-right: 28px;
+  }
+   
+  .order {
+    text-align: right;
   }
 }
