@@ -483,7 +483,7 @@
   margin-bottom: 22px;
   font-size: 28px;
   line-height: 36px;
-  color: #333D4B;
+  color: #333d4b;
 }
 
 .headquarter__address {
@@ -500,6 +500,41 @@
   text-decoration: underline;
 }
 
+/* subscribe.html */
+
+/* SUBSCRIBE-HERO */
+
+.subscribe-hero {
+  margin-bottom: 120px;
+  padding: 100px 24px 136px;
+  text-align: center;
+  color: #fefcf7;
+  background: url("../images/bg-subscribe-hero.jpg") no-repeat center / cover;
+  border-radius: 10px;
+}
+
+.subscribe-hero__heading {
+  margin-bottom: 22px;
+}
+
+.subscribe-hero__paragraph {
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* SUBSCRIBE-STEPS */
+
+.subscribe-steps {
+  padding: 80px 24px;
+  background-color: #2c343e;
+  border-radius: 10px;
+}
+
+.subscribe-steps .step__heading,
+.subscribe-steps .step__info {
+  color: #fff;
+}
+
 /* RETINA IMAGES */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -511,5 +546,9 @@
   only screen and (min-resolution: 2dppx) {
   .about-hero {
     background-image: url("../images/bg-about-hero@2x.jpg");
+  }
+
+  .subscribe-hero {
+    background-image: url("../images/bg-subscribe-hero@2x.jpg");
   }
 }

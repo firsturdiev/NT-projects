@@ -296,6 +296,41 @@
     font-size: 24px;
   }
 
+  /* subscribe.html */
+
+  /* SUBSCRIBE-HERO */
+
+  .subscribe-hero {
+    margin-bottom: 144px;
+    padding: 125px 58px;
+    text-align: left;
+    background-image: url("../images/bg-subscribe-hero-tablet.jpg");
+  }
+
+  .subscribe-hero__text {
+    max-width: 400px;
+  }
+
+  .subscribe-hero__heading {
+    margin-bottom: 24px;
+  }
+
+  /* SUBSCRIBE-STEPS */
+
+  .subscribe-steps {
+    padding: 100px 40px 70px;
+  }
+
+  .subscribe-steps .steps__list::before {
+    top: -2px;
+    left: 15px;
+    background-color: #fdd6ba;
+  }
+
+  .step::after {
+    background-color: transparent;
+  }
+
   /* RETINA IMAGES */
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -307,6 +342,10 @@
     only screen and (min-resolution: 2dppx) {
     .about-hero {
       background-image: url("../images/bg-hero-about-tablet@2x.jpg");
+    }
+
+    .subscribe-hero {
+      background-image: url("../images/bg-subscribe-hero-tablet@2x.jpg");
     }
   }
 }
@@ -611,6 +650,36 @@
     font-size: 32px;
   }
 
+  /* subscribe.html */
+
+  /* SUBSCRIBE-HERO */
+
+  .subscribe-hero {
+    margin-bottom: 168px;
+    padding: 134px 85px;
+    background-image: url("../images/bg-subscribe-hero-desktop.jpg");
+  }
+
+  .subscribe-hero__text {
+    max-width: 490px;
+  }
+
+  .subscribe-hero__heading {
+    margin-bottom: 32px;
+  }
+
+  .subscribe-hero__paragraph {
+    max-width: 445px;
+  }
+
+  /* SUBSCRIBE-STEPS */
+
+  .subscribe-steps {
+    padding: 100px 85px;
+    padding-top: 117px;
+    padding-right: 150px;
+  }
+
   /* RETINA IMAGES */
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -622,6 +691,10 @@
     only screen and (min-resolution: 2dppx) {
     .about-hero {
       background-image: url("../images/bg-hero-about-desktop@2x.jpg");
+    }
+
+    .subscribe-hero {
+      background-image: url("../images/bg-subscribe-hero-desktop@2x.jpg");
     }
   }
 }
