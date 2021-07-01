@@ -535,6 +535,164 @@
   color: #fff;
 }
 
+/* SUBSCRIBE */
+
+.subscribe {
+  margin-bottom: 120px;
+  text-align: left;
+}
+
+.subscribe__steps {
+  display: none;
+}
+
+.subscribe__options-wrapper {
+  margin-bottom: 120px;
+}
+
+.subscribe__options-item:not(:last-child) {
+  margin-bottom: 96px;
+}
+
+.option--open .option__list {
+  display: block;
+}
+
+.option--open .option__toggle {
+  background-image: url("../images/icon-arrow-top.svg");
+}
+
+.option__top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option__title {
+  max-width: 240px;
+  font-size: 24px;
+  color: #83888f;
+}
+
+.option__toggle {
+  width: 20px;
+  height: 12px;
+  padding: 0;
+  background: url("../images/icon-arrow-bottom.svg") no-repeat center / contain;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.option__toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.option__list {
+  display: none;
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.option__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.option__label {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: block;
+  padding: 24px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.option__label-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #f4f1eb;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.option__label:hover .option__label-bg {
+  background-color: #fdd6ba;
+}
+
+.option__label-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  transition: color 0.3s ease;
+}
+
+.option__label-info {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  transition: color 0.3s ease;
+}
+
+.option__label-radio:checked ~ .option__label-bg {
+  background-color: #0e8784;
+}
+
+.option__label-radio:checked ~ .option__label-title,
+.option__label-radio:checked ~ .option__label-info {
+  color: #fff;
+}
+
+.order__summary {
+  margin-bottom: 56px;
+  padding: 32px 24px;
+  color: #fff;
+  background-color: #2c343e;
+  border-radius: 10px;
+}
+
+.order__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.order__summary-text {
+  margin: 0;
+  font-family: "Fraunces 9pt", "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.order__summary-text strong {
+  color: #0e8784;
+}
+
+.order__btn {
+  display: block;
+  margin: 0 auto;
+}
+
 /* RETINA IMAGES */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),

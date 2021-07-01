@@ -40,7 +40,14 @@
   text-decoration: none;
   color: #fefcf7;
   background-color: #0e8784;
+  border: none;
   border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #66d2cf;
 }
 /* DEFAULT STYLES */
 
@@ -52,6 +59,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
