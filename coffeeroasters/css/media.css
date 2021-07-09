@@ -381,6 +381,14 @@
     padding: 27px 44px;
   }
 
+  .order__btn--submit {
+    display: none;
+  }
+
+  .order__btn:not(.order__btn--submit) {
+    display: inline-block;
+  }
+
   /* SUBSCRIBE-MODAL */
 
   .modal {

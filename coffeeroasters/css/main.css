@@ -698,7 +698,8 @@
   color: #0e8784;
 }
 
-.subscribe__modal {
+.subscribe__modal,
+.order__btn:not(.order__btn--submit) {
   display: none;
 }
 
@@ -717,5 +718,22 @@
 
   .subscribe-hero {
     background-image: url("../images/bg-subscribe-hero@2x.jpg");
+  }
+}
+
+
+/* ADDITIONALS */
+
+@media screen and (max-width: 330px) {
+  .quality__heading {
+    font-size: 24px;
+}
+
+  .features {
+    padding: 64px 24px 750px;
+  }
+
+  .features__list {
+    top: 350px;
   }
 }
