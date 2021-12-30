@@ -1,0 +1,147 @@
+:root {
+  --red: #ff7979;
+  --green: #38CC8b;
+  --purple: #5E54a4;
+  --black: #3d3b48;
+  --main-font: "Poppins", "Arial", sans-serif;
+}
+
+/* GENERAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: var(--main-font);
+  background-color: var(--red);
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #222;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* CONTAINER */
+.container {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+}
+
+.promo-left {
+  width: 525px;
+  margin-right: 45px;
+  color: #fff;
+}
+
+.promo-heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.promo-text {
+  margin: 0;
+}
+
+.promo-right {
+  width: 540px;
+}
+
+.promo-right-top {
+  padding: 17px;
+  margin-bottom: 41px;
+  text-align: center;
+  background-color: var(--purple);
+  color: #fff;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+}
+
+.reg-form input {
+  padding: 15px 32px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--purple);
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--green);
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
+
+.reg-form p {
+  font-size: 11px;
+  text-align: center;
+}
+
+.reg-form a {
+  color:var(--red);
+  text-decoration: none;
+  font-weight: bold;
+}

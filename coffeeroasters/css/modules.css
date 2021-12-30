@@ -1,0 +1,149 @@
+/* VARIABLES */
+
+:root {
+  --color-text-primary: #fefcf7;
+  --color-text-secondary: #333d4b;
+}
+
+/* REUSABLES */
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Fraunces 9pt", "Times New Roman", Times, serif;
+  font-weight: 900;
+  color: var(--color-text-primary);
+}
+
+.heading--primary {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.heading--secondary {
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.heading--tertiary {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: "Fraunces 9pt", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #66d2cf;
+}
+/* DEFAULT STYLES */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  color: var(--color-text-secondary);
+  background-color: #fefcf7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* STICKY FOOTER */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
+
+.site-footer {
+  flex-shrink: 0;
+}
+
+/* SPECIAL CLASSES */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* @FONT-FACE */
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Bold.woff2") format("woff2"),
+    url("../fonts/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"),
+    url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("../fonts/Fraunces9ptSoft-Black.woff2") format("woff2"),
+    url("../fonts/Fraunces9ptSoft-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

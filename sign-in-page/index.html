@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main class="site-content">
+    <div class="container">
+      <section class="sign-in">
+        <div class="intro">
+          <div class="intro-text">
+            <h1 class="intro-heading">Welcome back!</h1>
+            <p class="intro-paragraph">Sign in to continue</p>
+          </div>
+
+          <img src="./img/intro.png" alt="Girl working with computer">
+        </div>
+
+
+        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+          <fieldset class="form-fieldset">
+            <div class="form-group">
+              <label class="form-label" for="form-input-field">Username</label>
+              <input class="form-input-field" type="text" placeholder="Enter username" name="username" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="password">Password</label>
+              <input class="form-input-field" type="text" placeholder="Enter username" name="password" id="password" required>
+            </div>
+
+            <div class="form-group form-group-check">
+              <input class="form-input-checkbox" type="checkbox" name="is_remembered" id="is_remembered">
+              <label class="form-label" for="is_remembered">Remember me</label>
+            </div>
+
+            <input class="form-submit" type="submit" value="Log in">
+          </fieldset>
+
+          <div class="form-forgot-container">
+            <a class="form-forgot" href="#">Forgot your password</a>
+          </div>
+        </form>
+      </section>
+
+
+      <div class="copyright">
+        <p class="copyright-text">Don’t have an account?
+          <a class="copyright-link" href="#"></a>
+        </p>
+        <p class="copyright-text">© 2020 Crafted and designed by 10ursabanoglu. 🎉</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

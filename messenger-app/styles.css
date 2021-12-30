@@ -1,0 +1,149 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.app {
+  padding-top: 50px;
+  min-height: 100vh;
+  background: #97B3CC;
+}
+
+.chat-profile {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background: #6A96D8;
+}
+
+.chat-profile-indicator {
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.chat-profile-name {
+  margin: 0;
+  flex-grow: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .7px;
+  color: #fff;
+}
+
+.app-chat {
+  background: #fff;
+}
+
+.chat {
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.chat-day {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #a19f9f;
+}
+
+.chat-day time {
+  padding: 0 10px;
+}
+
+.chat-day-line {
+  flex-grow: 1;
+  width: 5px;
+  height: 1px;
+  background: #a19f9f;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.chat-message {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.chat-message:last-child {
+  margin-bottom: 0;
+}
+
+.chat-message-date {
+  display: inline-block;
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ADABA9;
+}
+
+.chat-message-text {
+  margin: 0;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: #E6EDF6;
+}
+
+.chat-message-you,
+.chat-message-it {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chat-message-you .chat-message-text {
+  background: #f2f2f2;
+}
+
+.chat-message-it .chat-message-text {
+  background: #FFC2C1;
+}
+
+
+.chat-input {
+  padding: 20px;
+  display: flex;
+  color: #878485;
+  border-top: 2px solid #dedede;
+}
+
+.chat-btn {
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  color: #6A96D8;
+}
