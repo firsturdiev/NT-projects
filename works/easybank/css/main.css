@@ -7,8 +7,11 @@
 ------------------------ */
 
 .site-header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 100;
+  width: 100%;
   padding: 18px 0;
   background-color: var(--color-white);
 }
@@ -16,6 +19,12 @@
 .site-header__inner {
   display: flex;
   align-items: center;
+}
+
+/* SITE-CONTENT */
+
+.site-content {
+  padding-top: 80px;
 }
 
 /* LOGO */
@@ -331,7 +340,7 @@
 /* SITE-FOOTER__NAV */
 
 .site-footer__nav {
-  margin-right: 255px;
+  margin-right: auto;
 }
 
 /* FOOTER-NAV */
