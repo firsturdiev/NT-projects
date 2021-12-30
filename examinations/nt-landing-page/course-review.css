@@ -1,0 +1,116 @@
+/* COURSE-REVIEW */
+
+.course-review {
+  width: 520px;
+  height: 472px;
+  margin: 50px;
+  padding-left: 32px;
+  padding-right: 48px;
+  padding-top: 48px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background-image: conic-gradient(
+    from -90deg at 100% 100%,
+    #0066ff 0deg,
+    #ffc700 89.68deg,
+    #fff500 360deg
+  );
+  background-color: #0066ff;
+  border-radius: 4px;
+}
+
+.course-review__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.course-review-profession {
+  margin: 0;
+  font-weight: bold;
+}
+
+.course-review__avatar {
+  position: relative;
+}
+
+.course-review__avatar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -42px;
+  width: 182px;
+  height: 182px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.course-review__avatar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -84px;
+  width: 182px;
+  height: 182px;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.course-review__avatar-img {
+  position: relative;
+  z-index: 10;
+  display: block;
+  border-radius: 50%;
+}
+
+.course-review__author {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.course-review__text {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-right: 20px;
+  font-weight: 600;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  opacity: 0.8;
+}
+
+.course-review__text br {
+  display: none;
+}
+
+.course-review__toggle {
+  font-weight: 500;
+  color: inherit;
+}
+
+/* COURSE-REVIEW--OPEN */
+
+.course-review--open {
+  padding: 32px;
+}
+
+.course-review--open .course-review__avatar,
+.course-review--open .course-review__toggle {
+  display: none;
+}
+
+.course-review--open .course-review__text {
+  margin-bottom: 0;
+  padding-right: 0;
+  -webkit-line-clamp: initial;
+  opacity: 1;
+}
+
+.course-review--open .course-review__text br {
+  display: initial;
+}
